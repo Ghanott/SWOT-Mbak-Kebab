@@ -1,0 +1,38 @@
+{
+  "Depok": {
+    "bbox": {
+      "south": -7.805,
+      "west": 110.355,
+      "north": -7.715,
+      "east": 110.47
+    },
+    "query": "[out:json][timeout:90];\n(\n  nwr[\"name\"~\"kebab|kabab|kebap|shawarma\", i](-7.805,110.355,-7.715,110.47);\n  nwr[\"cuisine\"~\"kebab|shawarma\", i](-7.805,110.355,-7.715,110.47);\n  nwr[\"amenity\"=\"fast_food\"](-7.805,110.355,-7.715,110.47);\n  nwr[\"amenity\"=\"restaurant\"](-7.805,110.355,-7.715,110.47);\n  nwr[\"amenity\"=\"cafe\"](-7.805,110.355,-7.715,110.47);\n  nwr[\"amenity\"=\"food_court\"](-7.805,110.355,-7.715,110.47);\n  nwr[\"amenity\"=\"university\"](-7.805,110.355,-7.715,110.47);\n  nwr[\"amenity\"=\"college\"](-7.805,110.355,-7.715,110.47);\n  nwr[\"amenity\"=\"school\"](-7.805,110.355,-7.715,110.47);\n  nwr[\"tourism\"~\"hotel|guest_house|hostel\"](-7.805,110.355,-7.715,110.47);\n  nwr[\"shop\"~\"convenience|supermarket|mall\"](-7.805,110.355,-7.715,110.47);\n  nwr[\"amenity\"=\"marketplace\"](-7.805,110.355,-7.715,110.47);\n);\nout center tags;"
+  },
+  "Mlati": {
+    "bbox": {
+      "south": -7.795,
+      "west": 110.315,
+      "north": -7.69,
+      "east": 110.39
+    },
+    "query": "[out:json][timeout:90];\n(\n  nwr[\"name\"~\"kebab|kabab|kebap|shawarma\", i](-7.795,110.315,-7.69,110.39);\n  nwr[\"cuisine\"~\"kebab|shawarma\", i](-7.795,110.315,-7.69,110.39);\n  nwr[\"amenity\"=\"fast_food\"](-7.795,110.315,-7.69,110.39);\n  nwr[\"amenity\"=\"restaurant\"](-7.795,110.315,-7.69,110.39);\n  nwr[\"amenity\"=\"cafe\"](-7.795,110.315,-7.69,110.39);\n  nwr[\"amenity\"=\"food_court\"](-7.795,110.315,-7.69,110.39);\n  nwr[\"amenity\"=\"university\"](-7.795,110.315,-7.69,110.39);\n  nwr[\"amenity\"=\"college\"](-7.795,110.315,-7.69,110.39);\n  nwr[\"amenity\"=\"school\"](-7.795,110.315,-7.69,110.39);\n  nwr[\"tourism\"~\"hotel|guest_house|hostel\"](-7.795,110.315,-7.69,110.39);\n  nwr[\"shop\"~\"convenience|supermarket|mall\"](-7.795,110.315,-7.69,110.39);\n  nwr[\"amenity\"=\"marketplace\"](-7.795,110.315,-7.69,110.39);\n);\nout center tags;"
+  },
+  "Gamping": {
+    "bbox": {
+      "south": -7.84,
+      "west": 110.27,
+      "north": -7.735,
+      "east": 110.35
+    },
+    "query": "[out:json][timeout:90];\n(\n  nwr[\"name\"~\"kebab|kabab|kebap|shawarma\", i](-7.84,110.27,-7.735,110.35);\n  nwr[\"cuisine\"~\"kebab|shawarma\", i](-7.84,110.27,-7.735,110.35);\n  nwr[\"amenity\"=\"fast_food\"](-7.84,110.27,-7.735,110.35);\n  nwr[\"amenity\"=\"restaurant\"](-7.84,110.27,-7.735,110.35);\n  nwr[\"amenity\"=\"cafe\"](-7.84,110.27,-7.735,110.35);\n  nwr[\"amenity\"=\"food_court\"](-7.84,110.27,-7.735,110.35);\n  nwr[\"amenity\"=\"university\"](-7.84,110.27,-7.735,110.35);\n  nwr[\"amenity\"=\"college\"](-7.84,110.27,-7.735,110.35);\n  nwr[\"amenity\"=\"school\"](-7.84,110.27,-7.735,110.35);\n  nwr[\"tourism\"~\"hotel|guest_house|hostel\"](-7.84,110.27,-7.735,110.35);\n  nwr[\"shop\"~\"convenience|supermarket|mall\"](-7.84,110.27,-7.735,110.35);\n  nwr[\"amenity\"=\"marketplace\"](-7.84,110.27,-7.735,110.35);\n);\nout center tags;"
+  },
+  "Ngaglik Selatan": {
+    "bbox": {
+      "south": -7.745,
+      "west": 110.355,
+      "north": -7.675,
+      "east": 110.435
+    },
+    "query": "[out:json][timeout:90];\n(\n  nwr[\"name\"~\"kebab|kabab|kebap|shawarma\", i](-7.745,110.355,-7.675,110.435);\n  nwr[\"cuisine\"~\"kebab|shawarma\", i](-7.745,110.355,-7.675,110.435);\n  nwr[\"amenity\"=\"fast_food\"](-7.745,110.355,-7.675,110.435);\n  nwr[\"amenity\"=\"restaurant\"](-7.745,110.355,-7.675,110.435);\n  nwr[\"amenity\"=\"cafe\"](-7.745,110.355,-7.675,110.435);\n  nwr[\"amenity\"=\"food_court\"](-7.745,110.355,-7.675,110.435);\n  nwr[\"amenity\"=\"university\"](-7.745,110.355,-7.675,110.435);\n  nwr[\"amenity\"=\"college\"](-7.745,110.355,-7.675,110.435);\n  nwr[\"amenity\"=\"school\"](-7.745,110.355,-7.675,110.435);\n  nwr[\"tourism\"~\"hotel|guest_house|hostel\"](-7.745,110.355,-7.675,110.435);\n  nwr[\"shop\"~\"convenience|supermarket|mall\"](-7.745,110.355,-7.675,110.435);\n  nwr[\"amenity\"=\"marketplace\"](-7.745,110.355,-7.675,110.435);\n);\nout center tags;"
+  }
+}

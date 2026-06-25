@@ -1,0 +1,4151 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-24T15:42:15Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1358364183,
+      "lat": -7.7607904,
+      "lon": 110.3449942,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Jambon Resto"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1358375859,
+      "lat": -7.7789129,
+      "lon": 110.3422666,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "cuisine": "burger",
+        "name": "McDonald's",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1358383698,
+      "lat": -7.762042,
+      "lon": 110.2916252,
+      "tags": {
+        "addr:city": "Kab. Sleman",
+        "addr:street": "Jalan Jae Sumantoro No 94, Godean",
+        "amenity": "school",
+        "name": "SMKN 2 Godean"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2350428122,
+      "lat": -7.8257133,
+      "lon": 110.327149,
+      "tags": {
+        "addr:postcode": "55183",
+        "addr:street": "Jl. Bibis Raya",
+        "amenity": "school",
+        "name": "SMP N 2 KASIHAN"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2360646862,
+      "lat": -7.8068044,
+      "lon": 110.342269,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2564051181,
+      "lat": -7.816468,
+      "lon": 110.3437243,
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:housename": "Nitiprayan",
+        "addr:street": "Jalan Jomegatan",
+        "amenity": "cafe",
+        "name": "Angkringan Wongso"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2591256853,
+      "lat": -7.7639745,
+      "lon": 110.3498904,
+      "tags": {
+        "name": "T'Lab Geek Shop",
+        "operator": "Tlab",
+        "phone": "+6285729074620",
+        "shop": "supermarket",
+        "website": "http://www.shop.tlab.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3279608791,
+      "lat": -7.80428,
+      "lon": 110.3092632,
+      "tags": {
+        "access:roof": "no",
+        "addr:full": "Jalan Wates km 5,5",
+        "amenity": "school",
+        "name": "SMK Muhammadiyah Gamping",
+        "type:id": "SMK"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3279609232,
+      "lat": -7.8137119,
+      "lon": 110.3119236,
+      "tags": {
+        "amenity": "school",
+        "name": "SMP Kalimanjung",
+        "type:id": "SMP"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3279622319,
+      "lat": -7.8028601,
+      "lon": 110.312712,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "name": "Rumah Makan Ambarketawang",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3320185993,
+      "lat": -7.7617747,
+      "lon": 110.3450761,
+      "tags": {
+        "amenity": "school",
+        "name": "SD Baturan 1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3320188943,
+      "lat": -7.7539781,
+      "lon": 110.3468514,
+      "tags": {
+        "amenity": "school",
+        "name": "SD Negeri Mayangan"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3481177656,
+      "lat": -7.76694,
+      "lon": 110.2898222,
+      "tags": {
+        "amenity": "school",
+        "name": "SD Negeri 1 Godean"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3504109242,
+      "lat": -7.8140001,
+      "lon": 110.348149,
+      "tags": {
+        "addr:city": "Yogyakarta",
+        "addr:housenumber": "366",
+        "addr:street": "Jalan Jomegatan Rt. 10",
+        "name": "House Of Nasi Bungkus",
+        "phone": "+62-817-9377100",
+        "smoking": "outside",
+        "tourism": "guest_house",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3557962662,
+      "lat": -7.7992803,
+      "lon": 110.3149969,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Angkringan RW 26"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3557962663,
+      "lat": -7.7947938,
+      "lon": 110.3151775,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Mie Ayam \"Konco Dhewe\""
+      }
+    },
+    {
+      "type": "node",
+      "id": 3557962664,
+      "lat": -7.7948146,
+      "lon": 110.3152433,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Warung Es Dawet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3558030826,
+      "lat": -7.7946537,
+      "lon": 110.3142942,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Lotek \"Mbah Darso\""
+      }
+    },
+    {
+      "type": "node",
+      "id": 3559577405,
+      "lat": -7.802194,
+      "lon": 110.3139492,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3582943395,
+      "lat": -7.8315295,
+      "lon": 110.3327258,
+      "tags": {
+        "amenity": "school",
+        "name": "Pesantren Taruna Al Quran"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3584972496,
+      "lat": -7.8290862,
+      "lon": 110.3421653,
+      "tags": {
+        "addr:street": "Jl. Bibis",
+        "amenity": "restaurant",
+        "cuisine": "Javanese",
+        "name": "Bakmi Jawa Sunar",
+        "opening_hours": "17:00-24:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3585204029,
+      "lat": -7.8183765,
+      "lon": 110.3483728,
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3585204030,
+      "lat": -7.8130878,
+      "lon": 110.3491431,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3612192886,
+      "lat": -7.8374343,
+      "lon": 110.3399174,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Warung Mangut Lele Bedog"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3612330468,
+      "lat": -7.8332498,
+      "lon": 110.3379887,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Bakmi Pele"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3616854460,
+      "lat": -7.8185019,
+      "lon": 110.3250058,
+      "tags": {
+        "amenity": "university",
+        "name": "Kampus Alma Atha"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3616855006,
+      "lat": -7.8241513,
+      "lon": 110.333326,
+      "tags": {
+        "name": "Pondok Gajah",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3616855011,
+      "lat": -7.8240689,
+      "lon": 110.3336479,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3617094218,
+      "lat": -7.8009856,
+      "lon": 110.3395227,
+      "tags": {
+        "amenity": "school",
+        "name": "SLB 1 Bantul"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3628557597,
+      "lat": -7.8392357,
+      "lon": 110.3341516,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Ayam Goreng Mbah Cemplung"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3630321046,
+      "lat": -7.8200923,
+      "lon": 110.3480394,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Soto Lenthok"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3630321047,
+      "lat": -7.8189323,
+      "lon": 110.3480923,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Soto Pagi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3630324585,
+      "lat": -7.8236527,
+      "lon": 110.3468767,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Yanti Restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3630324587,
+      "lat": -7.8262747,
+      "lon": 110.3475353,
+      "tags": {
+        "name": "Fort Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3630324588,
+      "lat": -7.8249576,
+      "lon": 110.3451123,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "sate_kambing",
+        "name": "Sate Ngasem"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3630844907,
+      "lat": -7.8396357,
+      "lon": 110.3128653,
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:district": "Kasihan",
+        "addr:province": "DIY",
+        "addr:street": "Jalan Bibis",
+        "addr:subdistrict": "Bangunjiwo",
+        "amenity": "school",
+        "check_date": "2024-11-05",
+        "grades": "7-9",
+        "name": "SMP Negeri 3 Kasihan",
+        "operator": "Pemerintah Kabupaten Bantul",
+        "operator:type": "government"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3687878726,
+      "lat": -7.7441364,
+      "lon": 110.272789,
+      "tags": {
+        "amenity": "school",
+        "name": "SD Kanisius"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4145328668,
+      "lat": -7.7760888,
+      "lon": 110.3435129,
+      "tags": {
+        "brand": "Hasty Market",
+        "brand:wikidata": "Q58022603",
+        "name": "Hasty Market",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4145328669,
+      "lat": -7.7762164,
+      "lon": 110.344331,
+      "tags": {
+        "brand": "Hasty Market",
+        "brand:wikidata": "Q58022603",
+        "name": "Hasty Market",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4145328670,
+      "lat": -7.7763014,
+      "lon": 110.3441137,
+      "tags": {
+        "brand": "Hasty Market",
+        "brand:wikidata": "Q58022603",
+        "name": "Hasty Market",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4145328671,
+      "lat": -7.7768702,
+      "lon": 110.3440762,
+      "tags": {
+        "brand": "Hasty Market",
+        "brand:wikidata": "Q58022603",
+        "name": "Hasty Market",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4145328672,
+      "lat": -7.777593,
+      "lon": 110.3438428,
+      "tags": {
+        "brand": "Hasty Market",
+        "brand:wikidata": "Q58022603",
+        "name": "Hasty Market",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4146166515,
+      "lat": -7.7830747,
+      "lon": 110.3230245,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Padang Murah"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4146176394,
+      "lat": -7.7875218,
+      "lon": 110.3248344,
+      "tags": {
+        "addr:street": "jalan Sayangan",
+        "amenity": "school",
+        "name": "SMA YPKK 1 Sleman"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4271041096,
+      "lat": -7.8152776,
+      "lon": 110.348414,
+      "tags": {
+        "addr:housenumber": "343",
+        "addr:postcode": "55182",
+        "addr:street": "Jalan Bugisan",
+        "email": "andy.amr30@gmail.com",
+        "internet_access": "wlan",
+        "name": "Omah Guyub",
+        "phone": "+62-818-02740204",
+        "tourism": "hotel",
+        "website": "http://omahguyubjogja.blogspot.co.id/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4303544189,
+      "lat": -7.800588,
+      "lon": 110.337839,
+      "tags": {
+        "addr:street": "Jalan Wates",
+        "amenity": "restaurant",
+        "name": "Sate Klathak Pak Yakut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4368839693,
+      "lat": -7.8220491,
+      "lon": 110.3418067,
+      "tags": {
+        "name:de": "Hati Mas Bed Bike & Breakfast",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4369642900,
+      "lat": -7.8025764,
+      "lon": 110.3451693,
+      "tags": {
+        "addr:housenumber": "311c;311 C",
+        "addr:postcode": "11582;55182",
+        "addr:street": "Jalan Nitipuran Gg. Klawu Bendo",
+        "email": "grapyak.homestay@gmail.com",
+        "internet_access": "wlan",
+        "name": "Grapyak Homestay",
+        "name:en": "Grapyak Homestay",
+        "name:ja": "グラピャクホームステイ",
+        "opening_hours": "24/7",
+        "operator": "M.haryo hutomo",
+        "phone": "+62 896 5069 1766",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4590099295,
+      "lat": -7.8148207,
+      "lon": 110.3429914,
+      "tags": {
+        "addr:housenumber": "87",
+        "addr:postcode": "55581",
+        "addr:street": "Jl. Nitiprayan",
+        "name": "Alamo Homestay Limasan",
+        "operator": "Tuti",
+        "phone": "+62-274-381604",
+        "tourism": "guest_house",
+        "website": "http://www.alamojogja.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4590904371,
+      "lat": -7.8199079,
+      "lon": 110.3421485,
+      "tags": {
+        "name": "Toko rico",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4590920996,
+      "lat": -7.8180882,
+      "lon": 110.3483502,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "warung bakmi jawa enak"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4592734533,
+      "lat": -7.8288129,
+      "lon": 110.320791,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "gudeg bu tatik"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4592734534,
+      "lat": -7.8305614,
+      "lon": 110.3236609,
+      "tags": {
+        "name": "Toko samunav",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4754834422,
+      "lat": -7.8012501,
+      "lon": 110.3441265,
+      "tags": {
+        "amenity": "cafe",
+        "name": "MARKO milk & coffee"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4819918121,
+      "lat": -7.8053983,
+      "lon": 110.349124,
+      "tags": {
+        "addr:housenumber": "25",
+        "addr:street": "Jalan Nakulo",
+        "internet_access": "wlan",
+        "name": "Boma House",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4831902732,
+      "lat": -7.7679774,
+      "lon": 110.3279451,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Warung Bu Sugirah"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4946539428,
+      "lat": -7.8075515,
+      "lon": 110.3391423,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "italian;indonesian;noodles",
+        "internet_access": "wlan",
+        "name": "Hidden Milk and Meals",
+        "opening_hours": "Mo-Su 12:00-23:55"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5056528162,
+      "lat": -7.8354383,
+      "lon": 110.3394202,
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:postcode": "55184",
+        "addr:street": "Sembungan RT 02, Bangunjiwo, Kasihan",
+        "email": "andyzulfan@gmail.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "SENJAKALA",
+        "name": "Rumah Senjakala",
+        "operator": "Andy Zulfan (Memet)",
+        "phone": "+6281225696099",
+        "rooms": "3",
+        "smoking": "yes",
+        "tourism": "guest_house",
+        "website": "https://facebook.com/rumahsenjakala"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5059843835,
+      "lat": -7.8169923,
+      "lon": 110.3402839,
+      "tags": {
+        "addr:housenumber": "65",
+        "addr:street": "Jalan Bekelan",
+        "name": "Jawajiwa Homestay",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5566324706,
+      "lat": -7.8358265,
+      "lon": 110.3382488,
+      "tags": {
+        "name": "Omah Sembungan",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5671039486,
+      "lat": -7.7638847,
+      "lon": 110.2905385,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Rumah Makan Padang"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5729356102,
+      "lat": -7.7379716,
+      "lon": 110.3303938,
+      "tags": {
+        "amenity": "fast_food"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5867794185,
+      "lat": -7.8361159,
+      "lon": 110.3400082,
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:housenumber": "8",
+        "addr:street": "Jalan Plataran",
+        "amenity": "restaurant",
+        "contact:facebook": "https://www.facebook.com/simpleplantvegankitchen",
+        "contact:phone": "+62 813 27395594",
+        "cuisine": "indonesian;tea;burger;pasta;coffee_shop",
+        "diet:vegan": "only",
+        "name": "Simple Plant vegetarian resto & art space",
+        "opening_hours": "Tu-Su 11:00-20:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5905752286,
+      "lat": -7.8008272,
+      "lon": 110.3437494,
+      "tags": {
+        "addr:street": "Jalan Wates",
+        "amenity": "fast_food",
+        "name": "Rocket Chicken"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5905752288,
+      "lat": -7.8006768,
+      "lon": 110.3455243,
+      "tags": {
+        "alt_name": "Dunkin' Donuts",
+        "amenity": "fast_food",
+        "brand": "Dunkin'",
+        "brand:wikidata": "Q847743",
+        "cuisine": "donut;coffee_shop",
+        "name": "Dunkin'",
+        "name:en": "Dunkin Donuts",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5905752289,
+      "lat": -7.8025752,
+      "lon": 110.3450151,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Grapyak Homestay Syariah",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6097924119,
+      "lat": -7.776361,
+      "lon": 110.3457892,
+      "tags": {
+        "addr:city": "Sleman",
+        "addr:housenumber": "Blok B 12",
+        "addr:postcode": "55592",
+        "addr:street": "Jalan Nusa Indah",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Amongcoffee",
+        "opening_hours": "Mo-Su 09:00-18:00",
+        "outdoor_seating": "yes",
+        "smoking": "outside"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6371354583,
+      "lat": -7.7661415,
+      "lon": 110.2853228,
+      "tags": {
+        "amenity": "school",
+        "name": "SD Negeri 3 Godean"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6984552213,
+      "lat": -7.8170311,
+      "lon": 110.3470344,
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:postcode": "55186",
+        "addr:street": "Jalan Jomegatan",
+        "amenity": "restaurant",
+        "cuisine": "indonesian;regional;coffee_shop;local",
+        "internet_access": "wlan",
+        "name": "Pelataran Puan Kopi & Tumbuh",
+        "opening_hours": "Su 13:00-00:00; Mo-Th, Sa 12:00-00:00; Fr 13:30-00:00",
+        "phone": "+62 852 12214141"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6984812085,
+      "lat": -7.8196821,
+      "lon": 110.3431958,
+      "tags": {
+        "addr:city": "Yogyakarta",
+        "addr:housenumber": "1",
+        "addr:postcode": "55181",
+        "addr:street": "Jalan Keloran - Nitiprayan",
+        "amenity": "cafe",
+        "cuisine": "tea;coffee_shop",
+        "internet_access": "wlan",
+        "name": "Saorsa Selatan",
+        "opening_hours": "Mo-Su 14:00-02:00",
+        "phone": "+62 899 1745 660"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7097513471,
+      "lat": -7.8113108,
+      "lon": 110.3404805,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Salad Moi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7097536804,
+      "lat": -7.8068257,
+      "lon": 110.3416716,
+      "tags": {
+        "brand": "Super Indo",
+        "brand:wikidata": "Q12518060",
+        "name": "Super Indo",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7097546659,
+      "lat": -7.8005668,
+      "lon": 110.3463843,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Waroeng Steak & Shake",
+        "opening_hours": "Sa-Th 11:00-21:00; Fr 13:00-21:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7097548713,
+      "lat": -7.8018156,
+      "lon": 110.3436918,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Nasi Uduk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7097549226,
+      "lat": -7.8052466,
+      "lon": 110.3434525,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Bebek Ayam"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7097562134,
+      "lat": -7.8071804,
+      "lon": 110.3395054,
+      "tags": {
+        "addr:housenumber": "457",
+        "addr:street": "Jalan Nosewu Baru",
+        "amenity": "cafe",
+        "name": "Kingli",
+        "phone": "+62-822-10330812"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7097566670,
+      "lat": -7.8080188,
+      "lon": 110.3408112,
+      "tags": {
+        "addr:housenumber": "482",
+        "addr:street": "Jalan Soboman",
+        "name": "The Edwin Syariah (OYO 611)",
+        "phone": "+62-822-25442577",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7097568701,
+      "lat": -7.8063286,
+      "lon": 110.3406946,
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7247145208,
+      "lat": -7.8008599,
+      "lon": 110.3216516,
+      "tags": {
+        "addr:city": "Ambarketawang",
+        "addr:postcode": "55294",
+        "addr:street": "Jalan Wates",
+        "amenity": "cafe",
+        "contact:instagram": "https://www.instagram.com/kedainyonyamuda",
+        "cuisine": "japanese;local;regional;indonesian;coffee_shop",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "KEDAI NYONYAMUDA 2",
+        "level": "0",
+        "name": "Kedai NyonyaMuda",
+        "opening_hours": "Mo-Su 15:00-24:00",
+        "outdoor_seating": "yes",
+        "phone": "+62 82183822357"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8484225017,
+      "lat": -7.7620128,
+      "lon": 110.331713,
+      "tags": {
+        "addr:postcode": "55592",
+        "addr:street": "Jalan Masjid Patok Negoro",
+        "amenity": "school",
+        "email": "asyukronamin@gmail.com",
+        "name": "Pondok pesantren Arrisalah mlangi",
+        "name:ar": "المعهد الاسلامي العلمي الرسالة",
+        "name:en": "Arrisalah Islamic Boarding School",
+        "opening_hours": "24/7",
+        "phone": "+62 812 2836 3307"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8484225117,
+      "lat": -7.7615135,
+      "lon": 110.3316585,
+      "tags": {
+        "addr:postcode": "55592",
+        "addr:street": "Jalan Masjid Patok Negoro",
+        "name": "Toko Annasr",
+        "name:en": "Annasr convenience store",
+        "opening_hours": "Mo-Su 09:00-23:00",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8680155407,
+      "lat": -7.8091159,
+      "lon": 110.3132701,
+      "tags": {
+        "addr:city": "Yogyakarta",
+        "addr:country": "ID",
+        "addr:housenumber": "99",
+        "addr:place": "Jalan Bima No. 99 Ambarketawang Gamping",
+        "addr:postcode": "55294",
+        "addr:street": "Jalan Anggrek Tegalrejo",
+        "amenity": "food_court",
+        "internet_access": "yes",
+        "internet_access:fee": "yes",
+        "name": "Food Court",
+        "opening_hours": "24/7",
+        "operator": "Avi",
+        "payment:bankaxess": "yes",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "smoking": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8962881122,
+      "lat": -7.8065801,
+      "lon": 110.3279731,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "drinks;coffee",
+        "name": "Sugar Boba UMY",
+        "opening_hours": "Mo-Su 10:00-21:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8962881123,
+      "lat": -7.8065969,
+      "lon": 110.3279054,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Griya Bakpia",
+        "opening_hours": "Mo-Th 08:00-20:00, Fr-Su 08:00-21:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8962881124,
+      "lat": -7.8072021,
+      "lon": 110.3280062,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Warmindo Motekar 8",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8962881125,
+      "lat": -7.8074972,
+      "lon": 110.3280024,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Say Story Umy",
+        "opening_hours": "Mo-Su 10:00-22:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8962881126,
+      "lat": -7.8078743,
+      "lon": 110.3280253,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Nasi Goreng Pak Yono",
+        "opening_hours": "Mo-Su 19:30-04:00",
+        "phone": "+6289603082662"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9025585287,
+      "lat": -7.8315706,
+      "lon": 110.3383718,
+      "tags": {
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Joglo Mandapa Boutique Hotel & Resto",
+        "smoking": "outside",
+        "tourism": "hotel",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9238427317,
+      "lat": -7.7764844,
+      "lon": 110.3417868,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "KONG KONG"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9800621229,
+      "lat": -7.8173668,
+      "lon": 110.3189145,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Warung Soto Cerak Ati"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9819610150,
+      "lat": -7.7819846,
+      "lon": 110.3482204,
+      "tags": {
+        "name": "Ndalem Suryo Saptono Guest House",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9835194948,
+      "lat": -7.7980772,
+      "lon": 110.330282,
+      "tags": {
+        "name": "The Amartya Hotel Yogyakarta",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9854594672,
+      "lat": -7.8006662,
+      "lon": 110.3462144,
+      "tags": {
+        "addr:housenumber": "33",
+        "addr:street": "Jalan Wates",
+        "amenity": "restaurant",
+        "cuisine": "indonesian",
+        "name": "Warung Soto Kadipiro"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10134659415,
+      "lat": -7.8028198,
+      "lon": 110.310585,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "check_date": "2025-07-11",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10134726252,
+      "lat": -7.8008882,
+      "lon": 110.2952175,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Bakpao Mugi Lancar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10134776723,
+      "lat": -7.7978184,
+      "lon": 110.324818,
+      "tags": {
+        "amenity": "restaurant",
+        "changing_table": "no",
+        "cuisine": "indonesian",
+        "delivery": "yes",
+        "kids_area": "no",
+        "mobile": "+62 852-2887-0000;+62 822-2599-5100",
+        "name": "Lotek & Gado-Gado Mbak Via",
+        "opening_hours": "Mo-Su 06:00-19:00",
+        "smoking": "yes",
+        "toilets": "yes",
+        "toilets:access": "private",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10181878159,
+      "lat": -7.7745913,
+      "lon": 110.285348,
+      "tags": {
+        "name": "Meika Mart",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10181878164,
+      "lat": -7.7739899,
+      "lon": 110.2848792,
+      "tags": {
+        "amenity": "cafe",
+        "name": "Kopi Pirak"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10187542958,
+      "lat": -7.8149239,
+      "lon": 110.2899868,
+      "tags": {
+        "amenity": "school",
+        "name": "SD Negeri Jatisawit"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10187553495,
+      "lat": -7.8156459,
+      "lon": 110.2909681,
+      "tags": {
+        "amenity": "school",
+        "name": "PAUD Az-Zahra"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10198378407,
+      "lat": -7.8142509,
+      "lon": 110.2899017,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Ayam Kentuky Bang Roni"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10697687786,
+      "lat": -7.7850049,
+      "lon": 110.3115994,
+      "tags": {
+        "addr:street": "Jl. Tangkilan",
+        "amenity": "restaurant",
+        "name": "Gudeg Mbah Kayah",
+        "opening_hours": "Mo-Sa 07:00-09:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11083136486,
+      "lat": -7.810738,
+      "lon": 110.3166674,
+      "tags": {
+        "description": "Showroom Mobil",
+        "name": "Orlando Auto Car",
+        "opening_hours": "24/7",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11083150278,
+      "lat": -7.8108974,
+      "lon": 110.3169069,
+      "tags": {
+        "name": "Miulan Yogyakarta",
+        "phone": "+6287833300111",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11290306669,
+      "lat": -7.7356915,
+      "lon": 110.3424297,
+      "tags": {
+        "name": "WaitHozz",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11333565622,
+      "lat": -7.7589105,
+      "lon": 110.2969418,
+      "tags": {
+        "amenity": "school",
+        "name": "MTS N 5 SLEMAN"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11333657720,
+      "lat": -7.7603738,
+      "lon": 110.2963139,
+      "tags": {
+        "addr:city": "Kab. Sleman",
+        "addr:street": "Kowanan, Sidoagung, Godean",
+        "amenity": "school",
+        "name": "SMKN 1 Sleman"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11383565855,
+      "lat": -7.7439621,
+      "lon": 110.3490509,
+      "tags": {
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Rumah Makan Padang Pandega"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11416411347,
+      "lat": -7.8219374,
+      "lon": 110.3473846,
+      "tags": {
+        "addr:housenumber": "100",
+        "addr:street": "Jalan Bugisan Selatan",
+        "amenity": "restaurant",
+        "email": "durianbaksogoda@gmail.com",
+        "name": "Bakso & Durian Goda",
+        "smoking": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11554854551,
+      "lat": -7.8007615,
+      "lon": 110.3485656,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11554863665,
+      "lat": -7.8090076,
+      "lon": 110.2863587,
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11554872680,
+      "lat": -7.8044323,
+      "lon": 110.3038492,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11554872775,
+      "lat": -7.8090105,
+      "lon": 110.2861811,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11554885600,
+      "lat": -7.8001485,
+      "lon": 110.3356449,
+      "tags": {
+        "amenity": "fast_food",
+        "name": "Warmindo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11554886401,
+      "lat": -7.8067446,
+      "lon": 110.2943065,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Kopi Gamol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11555005080,
+      "lat": -7.8025222,
+      "lon": 110.3140806,
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11777106673,
+      "lat": -7.7671032,
+      "lon": 110.331727,
+      "tags": {
+        "addr:city": "SLEMAN",
+        "addr:district": "SLEMAN",
+        "addr:housename": "PUNDUNG",
+        "addr:neighbourhood": "NOGOTIRTO",
+        "addr:postcode": "55592",
+        "addr:province": "DI YOGYAKARTA",
+        "addr:street": "Jalan Pundung",
+        "addr:subdistrict": "GAMPING",
+        "addr:unit": "PUNDUNG",
+        "amenity": "school",
+        "denomination": "sunni",
+        "grades": "7-9",
+        "name": "SMP MA'ARIF GAMPING",
+        "religion": "muslim"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12207757367,
+      "lat": -7.7658124,
+      "lon": 110.3441849,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12207758476,
+      "lat": -7.7436876,
+      "lon": 110.3490601,
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12292826799,
+      "lat": -7.8175307,
+      "lon": 110.2957094,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Kandang Ingkung Resto&Kopi"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12476174707,
+      "lat": -7.8148015,
+      "lon": 110.3233927,
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:district": "Tamantirto",
+        "addr:housename": "PREKSU UMY",
+        "addr:postcode": "55184",
+        "addr:street": "Jalan Rajawali",
+        "addr:subdistrict": "Ngebel",
+        "amenity": "restaurant",
+        "cuisine": "chicken",
+        "diet:halal": "yes",
+        "name": "PREKSU UMY",
+        "opening_hours": "Mo-Su 10:00-21:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12587004183,
+      "lat": -7.770214,
+      "lon": 110.3050677,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "SAKÉCA",
+        "owner": "Toko Daging Kita"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12648754859,
+      "lat": -7.8011335,
+      "lon": 110.3489923,
+      "tags": {
+        "name": "The Cabin Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12848222396,
+      "lat": -7.7808184,
+      "lon": 110.3499445,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "Chatime",
+        "brand:wikidata": "Q16829306",
+        "cuisine": "bubble_tea",
+        "name": "Chatime",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12851187119,
+      "lat": -7.7943394,
+      "lon": 110.2920945,
+      "tags": {
+        "name": "Warung Mas Ndaru",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13185591204,
+      "lat": -7.8271434,
+      "lon": 110.3333693,
+      "tags": {
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13200453901,
+      "lat": -7.8271369,
+      "lon": 110.3333666,
+      "tags": {
+        "addr:postcode": "55184",
+        "addr:street": "Kembaran RT.06, Tamantirto, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta",
+        "internet_access": "wlan",
+        "name": "Kos Putra Sofya",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13255235601,
+      "lat": -7.8289326,
+      "lon": 110.3323843,
+      "tags": {
+        "addr:housenumber": "17",
+        "addr:postcode": "55184",
+        "addr:street": "Jalan Sempu",
+        "name": "Alfamidi Kasihan",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13515989421,
+      "lat": -7.7610338,
+      "lon": 110.291391,
+      "tags": {
+        "addr:street": "Jl. Godean-Seyegan",
+        "amenity": "restaurant",
+        "name": "Sego Welut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13516032594,
+      "lat": -7.749843,
+      "lon": 110.2935636,
+      "tags": {
+        "addr:street": "Jl. Godean-Seyegan",
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13610868365,
+      "lat": -7.8074874,
+      "lon": 110.3131371,
+      "tags": {
+        "addr:city": "Sleman",
+        "addr:district": "Gamping",
+        "addr:neighbourhood": "Sorogenen-Tlogo",
+        "addr:province": "DI. Yogyakarta",
+        "addr:street": "Jl. Kresna",
+        "addr:subdistrict": "Ambarketawang",
+        "guest_house": "hostel",
+        "name": "Kost Bu Yeti",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13704784221,
+      "lat": -7.7571527,
+      "lon": 110.2947491,
+      "tags": {
+        "addr:street": "Jalan Godean - Seyegan",
+        "amenity": "restaurant",
+        "name": "Joglo Kerto Darmo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13742021412,
+      "lat": -7.8276747,
+      "lon": 110.3465293,
+      "tags": {
+        "email": "dumesscoliving@gmail.com",
+        "guest_house": "bed_and_breakfast",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "name": "Kost Dumess Exclusive",
+        "operator": "Dumess",
+        "phone": "+62 821-7000-1493",
+        "rooms": "10",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13800423565,
+      "lat": -7.7957012,
+      "lon": 110.3120624,
+      "tags": {
+        "name": "rumah simbah",
+        "operator": "shabrina",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13823031932,
+      "lat": -7.8096438,
+      "lon": 110.2831174,
+      "tags": {
+        "brand": "indomaret",
+        "name": "Indomaret Wates KM9.2",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13823031933,
+      "lat": -7.8090742,
+      "lon": 110.2860842,
+      "tags": {
+        "brand": "indomaret",
+        "name": "Indomaret Wates KM9",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13823031960,
+      "lat": -7.7894689,
+      "lon": 110.2765385,
+      "tags": {
+        "brand": "indomaret",
+        "name": "Indomaret Godean Pedes",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13823031963,
+      "lat": -7.7632943,
+      "lon": 110.2806609,
+      "tags": {
+        "brand": "indomaret",
+        "name": "Indomaret Godean KM.12",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13823031964,
+      "lat": -7.770244,
+      "lon": 110.304082,
+      "tags": {
+        "brand": "indomaret",
+        "name": "Indomaret Sidoagung",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13823031965,
+      "lat": -7.7710007,
+      "lon": 110.3059514,
+      "tags": {
+        "brand": "indomaret",
+        "name": "Indomaret Point Coffee Sidokarto",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13823031966,
+      "lat": -7.7724169,
+      "lon": 110.311703,
+      "tags": {
+        "brand": "indomaret",
+        "name": "Indomaret Godean KM8",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13823031967,
+      "lat": -7.7770265,
+      "lon": 110.3224346,
+      "tags": {
+        "brand": "indomaret",
+        "name": "Indomaret Sidoarum Utara",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13823031968,
+      "lat": -7.7763655,
+      "lon": 110.3271757,
+      "tags": {
+        "brand": "indomaret",
+        "name": "Indomaret Godean Km 6",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13823031969,
+      "lat": -7.7797115,
+      "lon": 110.3428817,
+      "tags": {
+        "brand": "indomaret",
+        "name": "Indomaret Godean",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13823031972,
+      "lat": -7.7427638,
+      "lon": 110.3492078,
+      "tags": {
+        "brand": "indomaret",
+        "name": "Indomaret RSA Kronggahan",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13823031979,
+      "lat": -7.7498385,
+      "lon": 110.2936162,
+      "tags": {
+        "brand": "indomaret",
+        "name": "Indomaret Margoluwih",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13823031992,
+      "lat": -7.7496497,
+      "lon": 110.3208578,
+      "tags": {
+        "brand": "indomaret",
+        "name": "Indomaret Sidomoyo Utara",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13823031993,
+      "lat": -7.7613047,
+      "lon": 110.3205345,
+      "tags": {
+        "brand": "indomaret",
+        "name": "Indomaret Sidomoyo",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13823031994,
+      "lat": -7.7582408,
+      "lon": 110.3375897,
+      "tags": {
+        "brand": "indomaret",
+        "name": "Indomaret RR 99",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13823031995,
+      "lat": -7.7722129,
+      "lon": 110.3334882,
+      "tags": {
+        "brand": "indomaret",
+        "name": "Indomaret Demak Ijo",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13823031996,
+      "lat": -7.7710855,
+      "lon": 110.3429479,
+      "tags": {
+        "brand": "indomaret",
+        "name": "Indomaret Kabupaten KM 1",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13823031997,
+      "lat": -7.7518248,
+      "lon": 110.3476996,
+      "tags": {
+        "brand": "indomaret",
+        "name": "Indomaret Kabupaten KM3",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13847755025,
+      "lat": -7.8114727,
+      "lon": 110.3280642,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "diet:halal": "yes",
+        "name": "Nasi Goreng Athaya"
+      }
+    },
+    {
+      "type": "way",
+      "id": 120426367,
+      "center": {
+        "lat": -7.7809331,
+        "lon": 110.3498685
+      },
+      "tags": {
+        "building": "yes",
+        "building:levels": "2",
+        "building:roof": "tile",
+        "building:structure": "reinforced_masonry",
+        "building:use": "commercial",
+        "building:walls": "brick",
+        "name": "Mirota Godean",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 121301078,
+      "center": {
+        "lat": -7.7661034,
+        "lon": 110.2908149
+      },
+      "tags": {
+        "access:roof": "no",
+        "addr:full": "JALAN JAE SUMANTORO",
+        "amenity": "marketplace",
+        "building": "marketplace",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": ">500",
+        "marketplace:authority": "officially_managed",
+        "marketplace:type": "mixed",
+        "name": "Pasar Godean",
+        "opening_hours": "05:00-17:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 121522238,
+      "center": {
+        "lat": -7.779903,
+        "lon": 110.3385607
+      },
+      "tags": {
+        "addr:full": "jalan godean km 5 banyuraden",
+        "amenity": "marketplace",
+        "marketplace:authority": "officially_managed",
+        "marketplace:type": "agricultural",
+        "name": "Pasar Tlagareja",
+        "opening_hours": "05:00-12:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 153751562,
+      "center": {
+        "lat": -7.7514197,
+        "lon": 110.3201275
+      },
+      "tags": {
+        "amenity": "school",
+        "name": "SD Ngrenak"
+      }
+    },
+    {
+      "type": "way",
+      "id": 208664560,
+      "center": {
+        "lat": -7.7973149,
+        "lon": 110.3144881
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "SD Muhammadiyah Ambarketawang II"
+      }
+    },
+    {
+      "type": "way",
+      "id": 208664561,
+      "center": {
+        "lat": -7.7974794,
+        "lon": 110.3144419
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "SD Muhammadiyah Ambarketawang II"
+      }
+    },
+    {
+      "type": "way",
+      "id": 208664562,
+      "center": {
+        "lat": -7.7983584,
+        "lon": 110.3143506
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "SD Muhammadiyah Ambarketawang II"
+      }
+    },
+    {
+      "type": "way",
+      "id": 208664563,
+      "center": {
+        "lat": -7.798483,
+        "lon": 110.3138373
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "TPA Al-Fattah"
+      }
+    },
+    {
+      "type": "way",
+      "id": 208677973,
+      "center": {
+        "lat": -7.8016092,
+        "lon": 110.3176512
+      },
+      "tags": {
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "building": "yes",
+        "name": "Alfamart",
+        "opening_hours": "24/7",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "way",
+      "id": 208677975,
+      "center": {
+        "lat": -7.8009498,
+        "lon": 110.3205938
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Delingmas",
+        "opening_hours": "Mo-Fr 08:30-20:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 208677977,
+      "center": {
+        "lat": -7.800344,
+        "lon": 110.3239172
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Mirota Gamping",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 249855407,
+      "center": {
+        "lat": -7.8166953,
+        "lon": 110.345805
+      },
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:housename": "Desa Ngestiharjo,Kecamatan Kasihan",
+        "amenity": "school",
+        "building": "school",
+        "building:levels": "1",
+        "name": "SD Kanisius Jomegatan"
+      }
+    },
+    {
+      "type": "way",
+      "id": 270039383,
+      "center": {
+        "lat": -7.7797079,
+        "lon": 110.3429198
+      },
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Jl Godean",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "building": "yes",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 314216659,
+      "center": {
+        "lat": -7.7779809,
+        "lon": 110.3369082
+      },
+      "tags": {
+        "access:roof": "no",
+        "addr:full": "Jalan Godean Km 4.8",
+        "amenity": "school",
+        "building:levels": "2",
+        "building:roof": "tile",
+        "building:walls": "brick",
+        "name": "SDN Demak Ijo 1",
+        "type:id": "SD"
+      }
+    },
+    {
+      "type": "way",
+      "id": 316775135,
+      "center": {
+        "lat": -7.8056449,
+        "lon": 110.3414303
+      },
+      "tags": {
+        "amenity": "college",
+        "name": "Universitas PGRI"
+      }
+    },
+    {
+      "type": "way",
+      "id": 318755534,
+      "center": {
+        "lat": -7.8016426,
+        "lon": 110.3238647
+      },
+      "tags": {
+        "addr:full": "Pasar Sentral Gamping, Ambarketawang",
+        "amenity": "marketplace",
+        "marketplace:authority": "officially_managed",
+        "marketplace:type": "mixed",
+        "name": "Pasar Sentral Gamping",
+        "opening_hours": "06:00-16:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 318756420,
+      "center": {
+        "lat": -7.8003463,
+        "lon": 110.3234604
+      },
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Pasar Gamping",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "building": "yes",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "opening_hours": "24/7",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 318762111,
+      "center": {
+        "lat": -7.7939734,
+        "lon": 110.3225903
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Indomaret Patukan",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 318771700,
+      "center": {
+        "lat": -7.8043262,
+        "lon": 110.3091673
+      },
+      "tags": {
+        "access:roof": "no",
+        "addr:full": "Jalan Wates km 5,5",
+        "amenity": "school",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "reinforced_masonry",
+        "building:walls": "brick",
+        "name": "SMK Muhammadiyah Gamping",
+        "type:id": "SMK"
+      }
+    },
+    {
+      "type": "way",
+      "id": 318771701,
+      "center": {
+        "lat": -7.8042329,
+        "lon": 110.3089491
+      },
+      "tags": {
+        "access:roof": "no",
+        "addr:full": "Jalan Wates km 5,5",
+        "amenity": "school",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "reinforced_masonry",
+        "building:walls": "brick",
+        "name": "SMK Muhammadiyah Gamping",
+        "type:id": "SMK"
+      }
+    },
+    {
+      "type": "way",
+      "id": 320100457,
+      "center": {
+        "lat": -7.783127,
+        "lon": 110.3438749
+      },
+      "tags": {
+        "addr:city": "Sleman",
+        "addr:district": "Gamping",
+        "addr:housenumber": "5",
+        "addr:neighbourhood": "Area Sawah",
+        "addr:postcode": "55293",
+        "addr:province": "Yogyakarta",
+        "addr:street": "Jalan Tata Bumi",
+        "addr:subdistrict": "Banyuraden",
+        "amenity": "college",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "name": "Sekolah Tinggi Pertanahan Nasional",
+        "website": "https://www.stpn.ac.id/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 321228784,
+      "center": {
+        "lat": -7.8034461,
+        "lon": 110.3105618
+      },
+      "tags": {
+        "addr:full": "Jalan Wates km 5,5",
+        "amenity": "school",
+        "education": "school",
+        "name": "SMP Muhammadiyah I Gamping",
+        "type:id": "SMP"
+      }
+    },
+    {
+      "type": "way",
+      "id": 321229423,
+      "center": {
+        "lat": -7.8021087,
+        "lon": 110.3138853
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "restaurant",
+        "name": "Gudeng Yu Djum"
+      }
+    },
+    {
+      "type": "way",
+      "id": 321229427,
+      "center": {
+        "lat": -7.8028761,
+        "lon": 110.3142919
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Paradise Resto",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "way",
+      "id": 321229429,
+      "center": {
+        "lat": -7.802893,
+        "lon": 110.3127061
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2025-07-11",
+        "name": "Rumah Makan Ambarketawang",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "way",
+      "id": 340887675,
+      "center": {
+        "lat": -7.80839,
+        "lon": 110.2709234
+      },
+      "tags": {
+        "amenity": "university",
+        "name": "Universitas Mercu Buana Yogyakarta. Kampus 1 Sedayu",
+        "website": "http://unwama.ac.id"
+      }
+    },
+    {
+      "type": "way",
+      "id": 349709249,
+      "center": {
+        "lat": -7.7982043,
+        "lon": 110.3144658
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "SD Muhammadiyah Ambarketawang II"
+      }
+    },
+    {
+      "type": "way",
+      "id": 349749385,
+      "center": {
+        "lat": -7.801228,
+        "lon": 110.3137941
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "SLB Muhammadiyah Ambarketawang"
+      }
+    },
+    {
+      "type": "way",
+      "id": 349749453,
+      "center": {
+        "lat": -7.8009303,
+        "lon": 110.313844
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Warung Soto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 350204645,
+      "center": {
+        "lat": -7.7996037,
+        "lon": 110.3160477
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Soto Sokaraja"
+      }
+    },
+    {
+      "type": "way",
+      "id": 354282751,
+      "center": {
+        "lat": -7.809715,
+        "lon": 110.3496717
+      },
+      "tags": {
+        "access:roof": "no",
+        "addr:full": "Jalan Bugisan",
+        "amenity": "marketplace",
+        "building": "marketplace",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": ">500",
+        "marketplace:authority": "officially_managed",
+        "marketplace:type": "mixed",
+        "name": "Pasar Legi",
+        "opening_hours": "05:00-11:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 355624900,
+      "center": {
+        "lat": -7.8376376,
+        "lon": 110.3361877
+      },
+      "tags": {
+        "amenity": "school",
+        "check_date": "2026-02-24",
+        "name": "SD Sembungan"
+      }
+    },
+    {
+      "type": "way",
+      "id": 357687090,
+      "center": {
+        "lat": -7.8402472,
+        "lon": 110.3498531
+      },
+      "tags": {
+        "access:roof": "no",
+        "addr:full": "Jalan bantul",
+        "amenity": "marketplace",
+        "capacity:persons": "250-500",
+        "marketplace:authority": "officially_managed",
+        "marketplace:type": "mixed",
+        "name": "Pasar Niten",
+        "opening_hours": "04:00-18:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 363459646,
+      "center": {
+        "lat": -7.7471689,
+        "lon": 110.3380301
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "regional,_fish",
+        "name": "The Westlake Resto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 363691137,
+      "center": {
+        "lat": -7.7618235,
+        "lon": 110.3460849
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "SMPN 2 Gamping"
+      }
+    },
+    {
+      "type": "way",
+      "id": 363838088,
+      "center": {
+        "lat": -7.7682595,
+        "lon": 110.3336427
+      },
+      "tags": {
+        "alt_name": "UNISA",
+        "amenity": "college",
+        "building": "yes",
+        "name": "Universitas aisyiyah",
+        "old_name": "Stikes Aisiyah"
+      }
+    },
+    {
+      "type": "way",
+      "id": 364354342,
+      "center": {
+        "lat": -7.7416658,
+        "lon": 110.3226349
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "SMPN 1 Mlati"
+      }
+    },
+    {
+      "type": "way",
+      "id": 364355155,
+      "center": {
+        "lat": -7.7410349,
+        "lon": 110.3235603
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "SD Negeri Tirtoadi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 364771002,
+      "center": {
+        "lat": -7.7378491,
+        "lon": 110.2993719
+      },
+      "tags": {
+        "addr:full": "JL. GODIAN SEYEGAN",
+        "amenity": "school",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "plastered",
+        "building:walls": "brick",
+        "name": "SDN GENDINGAN 2",
+        "school:type_idn": "sd"
+      }
+    },
+    {
+      "type": "way",
+      "id": 364771194,
+      "center": {
+        "lat": -7.7381021,
+        "lon": 110.2988658
+      },
+      "tags": {
+        "addr:full": "JL. GODIAN SEYEGAN",
+        "amenity": "school",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "plastered",
+        "building:walls": "brick",
+        "name": "SDN GENDINGAN 1",
+        "school:type_idn": "sd"
+      }
+    },
+    {
+      "type": "way",
+      "id": 364771237,
+      "center": {
+        "lat": -7.7381717,
+        "lon": 110.2990617
+      },
+      "tags": {
+        "addr:full": "JL. GODIAN SEYEGAN",
+        "amenity": "school",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "plastered",
+        "building:walls": "brick",
+        "name": "SDN GENDINGAN 1",
+        "school:type_idn": "sd"
+      }
+    },
+    {
+      "type": "way",
+      "id": 364771256,
+      "center": {
+        "lat": -7.7380623,
+        "lon": 110.2997547
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "SLB Dharma Putra"
+      }
+    },
+    {
+      "type": "way",
+      "id": 364771487,
+      "center": {
+        "lat": -7.7401313,
+        "lon": 110.3020566
+      },
+      "tags": {
+        "addr:full": "JL. GROGOL",
+        "amenity": "school",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "plastered",
+        "building:walls": "brick",
+        "name": "SMP MUHAMMADYAH GROGOL",
+        "school:type_idn": "smp"
+      }
+    },
+    {
+      "type": "way",
+      "id": 364953094,
+      "center": {
+        "lat": -7.7426622,
+        "lon": 110.2820771
+      },
+      "tags": {
+        "addr:full": "JL. PENDEAN",
+        "amenity": "school",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "plastered",
+        "building:walls": "brick",
+        "name": "SDN KANDANGAN II",
+        "school:type_idn": "sd"
+      }
+    },
+    {
+      "type": "way",
+      "id": 390010632,
+      "center": {
+        "lat": -7.8160364,
+        "lon": 110.3494705
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "Kantor Sekolah SMKI"
+      }
+    },
+    {
+      "type": "way",
+      "id": 390010643,
+      "center": {
+        "lat": -7.8142109,
+        "lon": 110.3501024
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "SMM Yogyakarta"
+      }
+    },
+    {
+      "type": "way",
+      "id": 413266829,
+      "center": {
+        "lat": -7.7872753,
+        "lon": 110.3247929
+      },
+      "tags": {
+        "addr:city": "Mejing wetan",
+        "addr:street": "Jalan Sayangan",
+        "amenity": "school",
+        "building": "school",
+        "name": "SMK YPKK 1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 418522131,
+      "center": {
+        "lat": -7.7994476,
+        "lon": 110.3482088
+      },
+      "tags": {
+        "building": "house",
+        "building:levels": "2",
+        "building:roof": "tile",
+        "building:walls": "concrete",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "way",
+      "id": 418522151,
+      "center": {
+        "lat": -7.7988123,
+        "lon": 110.3483154
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:walls": "concrete",
+        "education": "school"
+      }
+    },
+    {
+      "type": "way",
+      "id": 418869327,
+      "center": {
+        "lat": -7.7888402,
+        "lon": 110.3481457
+      },
+      "tags": {
+        "addr:city": "Daerah Istimewa Yogyakarta",
+        "addr:country": "ID",
+        "addr:district": "Bantul",
+        "addr:hamlet": "Ngestiharjo",
+        "addr:postcode": "55184",
+        "addr:street": "Jalan Soragan",
+        "addr:subdistrict": "Kasihan",
+        "brand": "Alfamart",
+        "brand:wikidata": "Q23745600",
+        "building": "retail",
+        "building:levels": "1",
+        "building:material": "concrete",
+        "floor_type": "keramik",
+        "name": "Alfamart",
+        "operator": "PT Sumber Alfaria Trijaya,Tbk",
+        "roof:material": "Asbestos",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:unisex": "yes",
+        "website": "https://alfamart.co.id"
+      }
+    },
+    {
+      "type": "way",
+      "id": 418908256,
+      "center": {
+        "lat": -7.8009355,
+        "lon": 110.3383905
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "school"
+      }
+    },
+    {
+      "type": "way",
+      "id": 418961407,
+      "center": {
+        "lat": -7.8001764,
+        "lon": 110.3396049
+      },
+      "tags": {
+        "amenity": "school",
+        "name": "SMP 1 Kasihan",
+        "school:type_idn": "smp"
+      }
+    },
+    {
+      "type": "way",
+      "id": 463887740,
+      "center": {
+        "lat": -7.8179319,
+        "lon": 110.3496271
+      },
+      "tags": {
+        "amenity": "school",
+        "name": "SMA 1 kasihan",
+        "school:type_idn": "sma"
+      }
+    },
+    {
+      "type": "way",
+      "id": 506104603,
+      "center": {
+        "lat": -7.7718684,
+        "lon": 110.3064884
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "school:type_idn": "sma"
+      }
+    },
+    {
+      "type": "way",
+      "id": 506104604,
+      "center": {
+        "lat": -7.772339,
+        "lon": 110.306315
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "school:type_idn": "sma"
+      }
+    },
+    {
+      "type": "way",
+      "id": 506104605,
+      "center": {
+        "lat": -7.7721183,
+        "lon": 110.3065473
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "school:type_idn": "sma"
+      }
+    },
+    {
+      "type": "way",
+      "id": 506104606,
+      "center": {
+        "lat": -7.7724044,
+        "lon": 110.3065358
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "school:type_idn": "sma"
+      }
+    },
+    {
+      "type": "way",
+      "id": 506104607,
+      "center": {
+        "lat": -7.7724513,
+        "lon": 110.306697
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "school:type_idn": "sma"
+      }
+    },
+    {
+      "type": "way",
+      "id": 506104608,
+      "center": {
+        "lat": -7.7724867,
+        "lon": 110.3068074
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "school:type_idn": "sma"
+      }
+    },
+    {
+      "type": "way",
+      "id": 506104609,
+      "center": {
+        "lat": -7.772515,
+        "lon": 110.3069131
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "school:type_idn": "sma"
+      }
+    },
+    {
+      "type": "way",
+      "id": 506104610,
+      "center": {
+        "lat": -7.7725487,
+        "lon": 110.3070185
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "school:type_idn": "sma"
+      }
+    },
+    {
+      "type": "way",
+      "id": 506104611,
+      "center": {
+        "lat": -7.7726096,
+        "lon": 110.3072066
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "school:type_idn": "sma"
+      }
+    },
+    {
+      "type": "way",
+      "id": 506104612,
+      "center": {
+        "lat": -7.7724342,
+        "lon": 110.3071128
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "school:type_idn": "sma"
+      }
+    },
+    {
+      "type": "way",
+      "id": 506104613,
+      "center": {
+        "lat": -7.7723815,
+        "lon": 110.3072906
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "school:type_idn": "sma"
+      }
+    },
+    {
+      "type": "way",
+      "id": 506104614,
+      "center": {
+        "lat": -7.7721654,
+        "lon": 110.3073673
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "school:type_idn": "sma"
+      }
+    },
+    {
+      "type": "way",
+      "id": 506104615,
+      "center": {
+        "lat": -7.7723009,
+        "lon": 110.3071669
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "school:type_idn": "sma"
+      }
+    },
+    {
+      "type": "way",
+      "id": 506104616,
+      "center": {
+        "lat": -7.7720741,
+        "lon": 110.3072086
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "school:type_idn": "sma"
+      }
+    },
+    {
+      "type": "way",
+      "id": 506104617,
+      "center": {
+        "lat": -7.7720484,
+        "lon": 110.3071034
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "school:type_idn": "sma"
+      }
+    },
+    {
+      "type": "way",
+      "id": 506104618,
+      "center": {
+        "lat": -7.7720251,
+        "lon": 110.3070015
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "school:type_idn": "sma"
+      }
+    },
+    {
+      "type": "way",
+      "id": 506104619,
+      "center": {
+        "lat": -7.7719841,
+        "lon": 110.3068822
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "school:type_idn": "sma"
+      }
+    },
+    {
+      "type": "way",
+      "id": 506594889,
+      "center": {
+        "lat": -7.7794596,
+        "lon": 110.2734279
+      },
+      "tags": {
+        "access:roof": "no",
+        "addr:full": "Jalan sumbersari",
+        "amenity": "marketplace",
+        "capacity:persons": "50-100",
+        "marketplace:authority": "officially_managed",
+        "marketplace:type": "mixed",
+        "name": "Pasar Krempyeng",
+        "opening_hours": "06:00-18:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529353834,
+      "center": {
+        "lat": -7.783914,
+        "lon": 110.3449663
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529781065,
+      "center": {
+        "lat": -7.7841309,
+        "lon": 110.3421306
+      },
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Indomaret",
+        "brand:wikidata": "Q4262825",
+        "brand:wikipedia": "id:Indomaret",
+        "building": "yes",
+        "building:levels": "0",
+        "name": "Indomaret",
+        "name:en": "Indomaret",
+        "name:id": "Indomaret",
+        "name:ja": "インドマレット",
+        "operator": "PT. Indomarco Prismatama",
+        "shop": "convenience",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "website": "https://www.klikindomaret.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529865160,
+      "center": {
+        "lat": -7.8135684,
+        "lon": 110.3433304
+      },
+      "tags": {
+        "access:roof": "no",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "name": "Warung Bakmi Jawa Mbak Indri"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529865164,
+      "center": {
+        "lat": -7.814402,
+        "lon": 110.3431576
+      },
+      "tags": {
+        "access:roof": "no",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "name": "Warung Kita"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529865168,
+      "center": {
+        "lat": -7.8138309,
+        "lon": 110.343182
+      },
+      "tags": {
+        "access:roof": "no",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "name": "Bakpia Patuk 453"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529884126,
+      "center": {
+        "lat": -7.811266,
+        "lon": 110.3444817
+      },
+      "tags": {
+        "access:roof": "no",
+        "addr:full": "Jl. Nitiprayan, Ngestiharjo, Kasihan, Bantul, Daerah Istimewa Yogyakarta 55182",
+        "amenity": "cafe",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "name": "Kedai Angkringan Tata Kahuripan"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529884133,
+      "center": {
+        "lat": -7.8125948,
+        "lon": 110.343187
+      },
+      "tags": {
+        "access:roof": "no",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "name": "Pondok Lesehan Bu Wiyogno"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529884134,
+      "center": {
+        "lat": -7.8120436,
+        "lon": 110.3434422
+      },
+      "tags": {
+        "access:roof": "no",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "name": "Soto Sapi Pak Pur"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529884135,
+      "center": {
+        "lat": -7.812706,
+        "lon": 110.3431623
+      },
+      "tags": {
+        "access:roof": "no",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "name": "Warung Kebon Nitiprayan"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529884136,
+      "center": {
+        "lat": -7.8137827,
+        "lon": 110.3443669
+      },
+      "tags": {
+        "access:roof": "no",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "name": "Warung Makan Bu Sarinem"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529884137,
+      "center": {
+        "lat": -7.8126677,
+        "lon": 110.3434697
+      },
+      "tags": {
+        "access:roof": "yes",
+        "amenity": "marketplace",
+        "building": "yes",
+        "building:levels": "2",
+        "building:roof": "tin",
+        "building:structure": "reinforced_masonry",
+        "building:walls": "brick",
+        "name": "K'Andy Air"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529937485,
+      "center": {
+        "lat": -7.7826045,
+        "lon": 110.3367029
+      },
+      "tags": {
+        "addr:full": "Jl. Titi Bumi Barat No.60, Banyuraden, Gamping, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55293",
+        "amenity": "school",
+        "name": "SLB Rela Bhakti 1 Gamping",
+        "operator:type": "Yayasan",
+        "school:type_idn": "sd"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530115500,
+      "center": {
+        "lat": -7.839527,
+        "lon": 110.3014157
+      },
+      "tags": {
+        "addr:full": "Jl. Sribitan, Bangunjiwo, Kasihan, Bangunjiwo, Bantul, Daerah Istimewa Yogyakarta 55184",
+        "amenity": "school",
+        "name": "SD Negeri 1 Sribitan",
+        "operator:type": "government",
+        "school:type_idn": "sd"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530342032,
+      "center": {
+        "lat": -7.7557347,
+        "lon": 110.2783209
+      },
+      "tags": {
+        "amenity": "school",
+        "name": "SDN Kwagon"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530392830,
+      "center": {
+        "lat": -7.8026107,
+        "lon": 110.3247272
+      },
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:place": "Ambarketawang",
+        "addr:postcode": "55184",
+        "addr:province": "Daerah Istimewa Jogjakarta",
+        "addr:street": "Jl.Ringroad Barat",
+        "amenity": "university",
+        "name": "BSI Yogyakarta"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530392857,
+      "center": {
+        "lat": -7.8033634,
+        "lon": 110.3235403
+      },
+      "tags": {
+        "addr:city": "Sleman",
+        "addr:housenumber": "c6",
+        "addr:place": "Ambarketawang",
+        "addr:postcode": "55184",
+        "addr:province": "Daerah Istimewa Jogjakarta",
+        "addr:street": "Jl.Lingkar barat perumahan methoharmony",
+        "name": "Griya Amalia",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530392886,
+      "center": {
+        "lat": -7.8049481,
+        "lon": 110.3236255
+      },
+      "tags": {
+        "addr:city": "Sleman",
+        "addr:place": "Ambarketawang",
+        "addr:postcode": "55294",
+        "addr:province": "Daerah Istimewa Jogjakarta",
+        "addr:street": "Jl.Ringroad Barat",
+        "amenity": "university",
+        "name": "STIKES Jenderal Ahmad Yani Yogyakarta",
+        "name:etymology:wikidata": "Q2992817",
+        "name:etymology:wikipedia": "id:Ahmad Yani"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530535789,
+      "center": {
+        "lat": -7.7903338,
+        "lon": 110.3363243
+      },
+      "tags": {
+        "addr:full": "Kanoman, Banyuraden, Sleman",
+        "amenity": "school",
+        "name": "SDN Kanoman",
+        "operator:type": "government",
+        "school:type_idn": "sd"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530612299,
+      "center": {
+        "lat": -7.7813385,
+        "lon": 110.2981281
+      },
+      "tags": {
+        "addr:full": "Sidokarto, Godean, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55564",
+        "amenity": "school",
+        "name": "SD Semarangan 5",
+        "operator:type": "government",
+        "school:type_idn": "sd"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530612319,
+      "center": {
+        "lat": -7.7836994,
+        "lon": 110.299288
+      },
+      "tags": {
+        "access:roof": "no",
+        "addr:full": "Jalan Ruwulu Kulon",
+        "amenity": "marketplace",
+        "building": "marketplace",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "100-250",
+        "marketplace:authority": "officially_managed",
+        "marketplace:type": "mixed",
+        "name": "Pasar Bibis",
+        "opening_hours": "06:00 - 12:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530742292,
+      "center": {
+        "lat": -7.7783518,
+        "lon": 110.3368063
+      },
+      "tags": {
+        "addr:full": "Jalan Godean KM.5,5, Banyuraden, Gamping, Banyuraden, Gamping, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55293",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Spesial Sambal"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530742328,
+      "center": {
+        "lat": -7.7804241,
+        "lon": 110.3464213
+      },
+      "tags": {
+        "addr:full": "Jl. Godean No.16, Nogotirto, Gamping, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55592",
+        "amenity": "restaurant",
+        "building": "yes",
+        "layer": "1",
+        "name": "Sate Padang Mak Ngah Malam"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530756999,
+      "center": {
+        "lat": -7.8171782,
+        "lon": 110.3061529
+      },
+      "tags": {
+        "addr:full": "Mancasan, Ambarketawang, Gamping, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55294",
+        "amenity": "school",
+        "name": "SD Negeri Mancasan",
+        "operator:type": "government",
+        "school:type_idn": "sd"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530814564,
+      "center": {
+        "lat": -7.8118409,
+        "lon": 110.3369224
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Kamila Swalayan",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530827205,
+      "center": {
+        "lat": -7.7638683,
+        "lon": 110.3115568
+      },
+      "tags": {
+        "addr:full": "Jalan Godean, Sidokarto, Godean, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55564",
+        "amenity": "school",
+        "name": "SD Negeri Jetak",
+        "school:type_idn": "sd"
+      }
+    },
+    {
+      "type": "way",
+      "id": 530827212,
+      "center": {
+        "lat": -7.7594534,
+        "lon": 110.3105437
+      },
+      "tags": {
+        "addr:full": "Jl. Desa Mandungan I, Margoluwih, Seyegan, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55264",
+        "amenity": "school",
+        "name": "SD Negeri Margoluwih",
+        "school:type_idn": "sd"
+      }
+    },
+    {
+      "type": "way",
+      "id": 531013684,
+      "center": {
+        "lat": -7.8137246,
+        "lon": 110.3442287
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "warung makan bu Sarinem"
+      }
+    },
+    {
+      "type": "way",
+      "id": 533745208,
+      "center": {
+        "lat": -7.7397227,
+        "lon": 110.2880981
+      },
+      "tags": {
+        "addr:full": "JL. KURAHAN III",
+        "amenity": "school",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "plastered",
+        "building:walls": "brick",
+        "name": "SDN KANDANGAN I",
+        "school:type_idn": "sd"
+      }
+    },
+    {
+      "type": "way",
+      "id": 556005505,
+      "center": {
+        "lat": -7.7379287,
+        "lon": 110.3148537
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "SD Negeri Pundong"
+      }
+    },
+    {
+      "type": "way",
+      "id": 556005512,
+      "center": {
+        "lat": -7.7383837,
+        "lon": 110.3143944
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "TK PKK Pundong II"
+      }
+    },
+    {
+      "type": "way",
+      "id": 610366475,
+      "center": {
+        "lat": -7.8027437,
+        "lon": 110.3450489
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Khaira Homestay",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 610373670,
+      "center": {
+        "lat": -7.782723,
+        "lon": 110.3477364
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "SD Mutiara Persada"
+      }
+    },
+    {
+      "type": "way",
+      "id": 610398448,
+      "center": {
+        "lat": -7.8036863,
+        "lon": 110.3434265
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Hotel Kinasih",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 610474009,
+      "center": {
+        "lat": -7.8129158,
+        "lon": 110.343438
+      },
+      "tags": {
+        "access:roof": "no",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "1",
+        "building:roof": "tile",
+        "building:structure": "unreinforced_masonry",
+        "building:walls": "brick",
+        "name": "Warung Bu Pon"
+      }
+    },
+    {
+      "type": "way",
+      "id": 610698720,
+      "center": {
+        "lat": -7.8049367,
+        "lon": 110.3478084
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Omah Pari Boutique Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 610973880,
+      "center": {
+        "lat": -7.8063455,
+        "lon": 110.3469354
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "SD Negeri Tamansari II Yogyakarta"
+      }
+    },
+    {
+      "type": "way",
+      "id": 611471751,
+      "center": {
+        "lat": -7.8025074,
+        "lon": 110.3498443
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "SD Muhammadiyah Wirobrajan 3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 611471878,
+      "center": {
+        "lat": -7.8011936,
+        "lon": 110.3494249
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Hotel Dermaga Keluarga",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 612896431,
+      "center": {
+        "lat": -7.7808549,
+        "lon": 110.342934
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Hotel Star 88",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 612896475,
+      "center": {
+        "lat": -7.7816887,
+        "lon": 110.3456034
+      },
+      "tags": {
+        "building": "yes",
+        "name": "OYO 1118 Artomoro Family Guesthouse",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 613167833,
+      "center": {
+        "lat": -7.8085259,
+        "lon": 110.340191
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Wisma Azalia",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 613180551,
+      "center": {
+        "lat": -7.8292514,
+        "lon": 110.3431016
+      },
+      "tags": {
+        "access:roof": "no",
+        "addr:full": "padokan kidul tirtonirmolo",
+        "amenity": "marketplace",
+        "building": "marketplace",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": ">500",
+        "marketplace:authority": "officially_managed",
+        "marketplace:type": "mixed",
+        "name": "Pasar Desa Nirmala",
+        "opening_hours": "04:00-18:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 613180667,
+      "center": {
+        "lat": -7.8283624,
+        "lon": 110.3454276
+      },
+      "tags": {
+        "amenity": "school",
+        "name": "SD N PADOKAN 2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 613197972,
+      "center": {
+        "lat": -7.8288485,
+        "lon": 110.3428392
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "name": "SD Negeri Padokan 1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 613203929,
+      "center": {
+        "lat": -7.7489334,
+        "lon": 110.2710479
+      },
+      "tags": {
+        "access:roof": "no",
+        "addr:full": "JALAN DUSUN KLEWONAN",
+        "amenity": "marketplace",
+        "building": "marketplace",
+        "building:condition": "good",
+        "building:floor": "ceramics",
+        "building:levels": "1",
+        "building:material": "brick",
+        "building:roof": "tile",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "100-250",
+        "marketplace:authority": "officially_managed",
+        "marketplace:type": "agricultural",
+        "name": "Pasar Klewonan",
+        "opening_hours": "05:00-10:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 613233452,
+      "center": {
+        "lat": -7.7812144,
+        "lon": 110.3432545
+      },
+      "tags": {
+        "amenity": "university",
+        "building": "yes",
+        "name": "Poltekkes Kemenkes Yogyakarta"
+      }
+    },
+    {
+      "type": "way",
+      "id": 613279788,
+      "center": {
+        "lat": -7.8257837,
+        "lon": 110.3282471
+      },
+      "tags": {
+        "amenity": "school",
+        "name": "SD Negeri Kasihan"
+      }
+    },
+    {
+      "type": "way",
+      "id": 613636422,
+      "center": {
+        "lat": -7.797596,
+        "lon": 110.3263285
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "name": "SD Negeri Gamping"
+      }
+    },
+    {
+      "type": "way",
+      "id": 619116664,
+      "center": {
+        "lat": -7.8067436,
+        "lon": 110.2960744
+      },
+      "tags": {
+        "addr:full": "Jalan Wates KM 7.5",
+        "amenity": "marketplace",
+        "capacity:persons": "100-250",
+        "marketplace:authority": "officially_managed",
+        "marketplace:type": "mixed",
+        "name": "Pasar Balecatur",
+        "opening_hours": "05:00-20:00",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 620576272,
+      "center": {
+        "lat": -7.7953435,
+        "lon": 110.3502929
+      },
+      "tags": {
+        "amenity": "school",
+        "name": "SD Tegal Mulyo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 620576278,
+      "center": {
+        "lat": -7.7934849,
+        "lon": 110.3441588
+      },
+      "tags": {
+        "access:roof": "no",
+        "addr:full": "Jl. Sutopadan, Cobongan, Ngestiharjo, Kasihan, Bantul, Daerah Istimewa Yogyakarta 55184",
+        "amenity": "marketplace",
+        "building": "marketplace",
+        "building:condition": "good",
+        "building:floor": "cement",
+        "building:levels": "2",
+        "building:material": "concrete",
+        "building:roof": "concrete",
+        "building:structure": "confined_masonry",
+        "capacity:persons": "100-250",
+        "marketplace:authority": "officially_managed",
+        "marketplace:type": "agricultural",
+        "name": "Pasar Janten",
+        "opening_hours": "05:30-09:30",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 667614134,
+      "center": {
+        "lat": -7.8044287,
+        "lon": 110.3249843
+      },
+      "tags": {
+        "addr:city": "Sleman",
+        "addr:place": "Ambarketawang",
+        "addr:postcode": "55294",
+        "addr:province": "Daerah Istimewa Jogjakarta",
+        "addr:street": "Jl.Ringroad Selatan",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Dixen Lounge and Cafe"
+      }
+    },
+    {
+      "type": "way",
+      "id": 818705788,
+      "center": {
+        "lat": -7.8073593,
+        "lon": 110.3215182
+      },
+      "tags": {
+        "amenity": "food_court",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 818719601,
+      "center": {
+        "lat": -7.8157626,
+        "lon": 110.3230744
+      },
+      "tags": {
+        "amenity": "university"
+      }
+    },
+    {
+      "type": "way",
+      "id": 818720725,
+      "center": {
+        "lat": -7.8105289,
+        "lon": 110.3221037
+      },
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:district": "Tamantirto",
+        "addr:housename": "University Muhammadiyah Yogyakarta",
+        "addr:postcode": "55183",
+        "addr:street": "Jalan Brawijaya",
+        "addr:subdistrict": "Ngebel",
+        "amenity": "university",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "University Muhammadiyah Yogyakarta"
+      }
+    },
+    {
+      "type": "way",
+      "id": 918536789,
+      "center": {
+        "lat": -7.8078831,
+        "lon": 110.3476266
+      },
+      "tags": {
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Yats - Colony",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 938148098,
+      "center": {
+        "lat": -7.8087711,
+        "lon": 110.3450115
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Sonosewu Guest House",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "way",
+      "id": 943501570,
+      "center": {
+        "lat": -7.8298838,
+        "lon": 110.2876831
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "contact:instagram": "rajaklanaresto",
+        "contact:website": "https://www.rajaklana.com",
+        "cuisine": "indonesian",
+        "name": "Rajaklana Resto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975072835,
+      "center": {
+        "lat": -7.8029289,
+        "lon": 110.3432987
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Hotel Nitipuran Permai",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1009843752,
+      "center": {
+        "lat": -7.7734533,
+        "lon": 110.3421548
+      },
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "Sekolah Teladan"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1094489138,
+      "center": {
+        "lat": -7.7799857,
+        "lon": 110.2926522
+      },
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "indonesian",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "Angkringan Bimoes",
+        "name": "Angkringan Bimo",
+        "opening_hours": "24/7",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1098705863,
+      "center": {
+        "lat": -7.8036696,
+        "lon": 110.3071182
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "daerahregional;soto",
+        "name": "Soto Ayam Depok"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1109912734,
+      "center": {
+        "lat": -7.7511442,
+        "lon": 110.3189843
+      },
+      "tags": {
+        "amenity": "school",
+        "grades": "1-6",
+        "name": "TK Pusposari IV"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1112829567,
+      "center": {
+        "lat": -7.7739855,
+        "lon": 110.2848865
+      },
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1124980367,
+      "center": {
+        "lat": -7.8026014,
+        "lon": 110.333266
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Bakmi Jawa Kembang Kluwih"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1167898064,
+      "center": {
+        "lat": -7.8147887,
+        "lon": 110.323388
+      },
+      "tags": {
+        "addr:city": "Bantul",
+        "addr:district": "Tamantirto",
+        "addr:housename": "Preksu UMY",
+        "addr:postcode": "55184",
+        "addr:street": "Jalan Rajawali",
+        "addr:subdistrict": "Ngebel",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "chicken",
+        "diet:halal": "yes",
+        "name": "Preksu UMY"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1167898072,
+      "center": {
+        "lat": -7.810518,
+        "lon": 110.3232564
+      },
+      "tags": {
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Cafe 1912"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1340969197,
+      "center": {
+        "lat": -7.7676672,
+        "lon": 110.2933858
+      },
+      "tags": {
+        "amenity": "marketplace",
+        "building": "yes",
+        "name": "Pusat Kuliner Belut Godean"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1420324961,
+      "center": {
+        "lat": -7.8018293,
+        "lon": 110.316444
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "check_date": "2025-07-11",
+        "internet_access": "no",
+        "internet_access:fee": "no",
+        "name": "RM. Padang Murah Meriah",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1461360565,
+      "center": {
+        "lat": -7.804312,
+        "lon": 110.272402
+      },
+      "tags": {
+        "amenity": "school",
+        "name": "SMA Negeri 1 Sedayu",
+        "operator:type": "public"
+      }
+    }
+  ]
+}

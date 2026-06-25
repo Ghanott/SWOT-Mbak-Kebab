@@ -1,0 +1,13 @@
+item,value,source_type,source_url,evidence_strength,notes
+brand_name,Mbak Kebab,public_instagram,https://www.instagram.com/mbak_kebab_/,high,Nama brand dari akun Instagram publik.
+instagram_username,@mbak_kebab_,public_instagram,https://www.instagram.com/mbak_kebab_/,high,Akun publik utama yang digunakan sebagai baseline brand.
+brand_category,Kuliner kebab / fast food lokal,analysis,-,medium,Dikategorikan berdasarkan jenis produk yang muncul di sumber publik.
+brand_positioning,Kebab dengan citarasa khas nusantara,public_snippet,https://www.instagram.com/mbak_kebab_/,medium,Positioning perlu diverifikasi ulang melalui screenshot bio/owner.
+product_claim,"100% ayam fresh, daging pilihan, bahan baku halal",public_snippet,https://www.instagram.com/mbak_kebab_/,medium,Klaim publik dari snippet profil; gunakan sebagai hipotesis Strength.
+estimated_followers_snapshot,sekitar 6.4K sampai 13K followers tergantung snapshot publik,public_snippet,https://www.instagram.com/mbak_kebab_/,low,Angka followers berubah dan perlu snapshot manual terbaru.
+estimated_posts_snapshot,sekitar 753 sampai 1.212 posts tergantung snapshot publik,public_snippet,https://www.instagram.com/mbak_kebab_/,low,Angka posts berubah dan perlu snapshot manual terbaru.
+known_operational_area,Ponorogo dan indikasi area Madiun/Jawa Timur,public_snippet,https://www.instagram.com/mbak_kebab_/,medium,"Jejak publik mengarah ke Ponorogo/Jawa Timur, bukan outlet Sleman."
+known_branch_claim,15 cabang di Jawa Timur,public_snippet,https://www.instagram.com/reel/DA7SQ3WS1Z8/,low,Perlu validasi owner karena hanya berasal dari snippet publik.
+public_operational_hours,15.00–21.00 WIB; beberapa snippet pusat menyebut 10.00–21.00,public_snippet,https://www.instagram.com/reel/DA7SQ3WS1Z8/,medium,"Jam operasional bisa berbeda antar outlet, wajib validasi."
+public_whatsapp,0817 7574 2600 / 081358127400 pada beberapa snippet lama,public_snippet,https://www.instagram.com/p/CQlNWPnLo-4/,low,Jangan dipakai sebagai kontak final tanpa verifikasi manual.
+sleman_presence,Outlet aktif di Sleman Selatan belum terverifikasi dalam data publik ini,analysis,-,medium,Project diposisikan sebagai analisis potensi ekspansi/penetrasi pasar Sleman Selatan.

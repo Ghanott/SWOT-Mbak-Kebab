@@ -1,0 +1,245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.386,
+          -7.778
+        ]
+      },
+      "properties": {
+        "poi_id": "P-002",
+        "name": "Istanbul Kebab Turki House Moses",
+        "category": "direct_kebab_competitor",
+        "zone": "Depok",
+        "address": "Mrican, Caturtunggal, Sleman",
+        "source": "GoFood/public listing",
+        "confidence": "low",
+        "notes": "Koordinat centroid manual, perlu validasi."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.402,
+          -7.747
+        ]
+      },
+      "properties": {
+        "poi_id": "P-003",
+        "name": "Heybab Kebab Concat",
+        "category": "direct_kebab_competitor",
+        "zone": "Depok",
+        "address": "Condongcatur, Depok, Sleman",
+        "source": "GoFood/public listing",
+        "confidence": "low",
+        "notes": "Koordinat centroid manual, perlu validasi."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.389,
+          -7.775
+        ]
+      },
+      "properties": {
+        "poi_id": "P-004",
+        "name": "H Kebab",
+        "category": "direct_kebab_competitor",
+        "zone": "Depok",
+        "address": "Jl. Affandi, Caturtunggal, Sleman",
+        "source": "Facebook public post",
+        "confidence": "low",
+        "notes": "Koordinat centroid manual."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.38,
+          -7.772
+        ]
+      },
+      "properties": {
+        "poi_id": "P-005",
+        "name": "Kebab Turkiyem UGM",
+        "category": "direct_kebab_competitor",
+        "zone": "Depok",
+        "address": "Sekitar UGM",
+        "source": "Waze/public map",
+        "confidence": "low",
+        "notes": "Koordinat centroid manual."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.401,
+          -7.7455
+        ]
+      },
+      "properties": {
+        "poi_id": "P-006",
+        "name": "Kebab Ajib Condong Catur",
+        "category": "direct_kebab_competitor",
+        "zone": "Depok",
+        "address": "Condongcatur",
+        "source": "Waze/public map",
+        "confidence": "low",
+        "notes": "Koordinat centroid manual."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3763824,
+          -7.7557642
+        ]
+      },
+      "properties": {
+        "poi_id": "P-007",
+        "name": "Morgans Kebab Pandega",
+        "category": "direct_kebab_competitor",
+        "zone": "Ngaglik Selatan",
+        "address": "Pandega/Jakal bawah",
+        "source": "Corner/Google Maps coordinate",
+        "confidence": "medium",
+        "notes": "Koordinat eksplisit dari sumber publik."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.36,
+          -7.745
+        ]
+      },
+      "properties": {
+        "poi_id": "P-008",
+        "name": "Kebab Turki Baba Rafi Sendangadi",
+        "category": "direct_kebab_competitor",
+        "zone": "Mlati",
+        "address": "Sendangadi/Mlati",
+        "source": "public listing",
+        "confidence": "low",
+        "notes": "Koordinat centroid manual."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.365,
+          -7.75
+        ]
+      },
+      "properties": {
+        "poi_id": "P-009",
+        "name": "Kebab Bosman Monjali",
+        "category": "direct_kebab_competitor",
+        "zone": "Mlati",
+        "address": "Monjali/Mlati",
+        "source": "public listing",
+        "confidence": "low",
+        "notes": "Koordinat centroid manual."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.361,
+          -7.752
+        ]
+      },
+      "properties": {
+        "poi_id": "P-010",
+        "name": "Jogja City Mall",
+        "category": "mall/titik_keramaian",
+        "zone": "Mlati",
+        "address": "Jl. Magelang, Mlati",
+        "source": "public web",
+        "confidence": "medium",
+        "notes": "Titik keramaian/retail."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.362,
+          -7.748
+        ]
+      },
+      "properties": {
+        "poi_id": "P-011",
+        "name": "Terminal Jombor",
+        "category": "transport/titik_keramaian",
+        "zone": "Mlati",
+        "address": "Jombor, Mlati",
+        "source": "public/BPS context",
+        "confidence": "medium",
+        "notes": "Titik traffic."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.325,
+          -7.78
+        ]
+      },
+      "properties": {
+        "poi_id": "P-012",
+        "name": "Morgans Kebab Godean",
+        "category": "direct_kebab_competitor",
+        "zone": "Gamping",
+        "address": "Koridor Godean/Gamping",
+        "source": "public listing",
+        "confidence": "low",
+        "notes": "Koordinat centroid manual."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.32,
+          -7.79
+        ]
+      },
+      "properties": {
+        "poi_id": "P-013",
+        "name": "Kebab Bang Aji",
+        "category": "direct_kebab_competitor",
+        "zone": "Gamping",
+        "address": "Gamping",
+        "source": "public listing",
+        "confidence": "low",
+        "notes": "Koordinat centroid manual."
+      }
+    }
+  ]
+}

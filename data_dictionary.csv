@@ -1,0 +1,10 @@
+file,description,main_use
+mbak_kebab_internal_baseline.csv,Data internal publik brand Mbak Kebab.,Strength/Weakness baseline
+mbak_kebab_menu.csv,"Menu, harga, ukuran, varian, dan evidence publik.","Product, price, Strength/Weakness"
+competitor_menu_price.csv,Kompetitor kebab dan harga/menu yang ditemukan.,Threat and competitor benchmark
+zone_summary.csv,Indikator wilayah per zona.,Opportunity/Threat scoring
+zone_scoring.csv,Skor peluang dan ancaman per zona.,Ranking dan chart web
+swot_evidence.csv,Mapping bukti ke SWOT.,SWOT analysis Python
+landing_page_data.json,Data final siap untuk frontend.,Web visualization
+poi_clean.csv,POI manual awal dan kompetitor.,Map
+overpass_queries.json,Query OSM/Overpass untuk scraping asli.,Generate raw POI data

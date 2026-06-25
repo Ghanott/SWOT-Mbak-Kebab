@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Analisis Potensi Bisnis Mbak Kebab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: "#12100e",
+            ember: "#dd5d21",
+            brass: "#f0b34a",
+            mist: "#f4efe6",
+            paper: "#fffdf9",
+            moss: "#1f4d3c",
+            clay: "#7b341e",
+            smoke: "#6b635b"
+          },
+          fontFamily: {
+            sans: ["Manrope", "sans-serif"],
+            display: ["Archivo Black", "sans-serif"]
+          },
+          boxShadow: {
+            panel: "0 18px 60px rgba(18, 16, 14, 0.08)",
+            soft: "0 10px 30px rgba(18, 16, 14, 0.06)"
+          }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="./styles.css?v=1.0.2" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body class="bg-mist text-ink font-sans">
+  <div class="page-aura"></div>
+
+  <main class="relative z-10 px-4 py-6 md:px-8 lg:px-12">
+    <section class="mx-auto max-w-7xl">
+      <div class="hero-shell overflow-hidden rounded-[2rem] border border-white/70 bg-paper shadow-panel">
+        <div class="grid gap-8 px-6 py-8 lg:grid-cols-[1.3fr_0.7fr] lg:px-10 lg:py-10">
+          <div class="space-y-6">
+            <div class="inline-flex items-center gap-3 rounded-full border border-ember/15 bg-white/80 px-4 py-2 text-[11px] font-bold uppercase tracking-[0.24em] text-clay">
+              <span class="h-2.5 w-2.5 rounded-full bg-ember"></span>
+              Sleman Selatan Opportunity Dashboard
+            </div>
+
+            <div class="space-y-4">
+              <p class="text-sm font-semibold uppercase tracking-[0.28em] text-smoke">Scraping to Strategy</p>
+              <h1 class="max-w-4xl font-display text-4xl leading-tight text-ink md:text-5xl xl:text-6xl">
+                Analisis Potensi Bisnis Mbak Kebab untuk Ekspansi yang Lebih Terarah
+              </h1>
+              <p class="max-w-3xl text-sm leading-7 text-smoke md:text-base">
+                Dashboard ini mengubah pipeline Overpass, baseline internal, scoring zona, dan SWOT menjadi narasi bisnis
+                yang mudah dipresentasikan. Fokus utamanya: memilih koridor terbaik, membaca ancaman, lalu menerjemahkan
+                data menjadi keputusan komersial yang masuk akal.
+              </p>
+            </div>
+
+            <div class="flex flex-wrap gap-3" id="hero-badges"></div>
+          </div>
+
+          <aside class="flex flex-col gap-4">
+            <div class="insight-card rounded-[1.6rem] border border-ember/20 bg-ink p-5 text-white">
+              <p class="text-[11px] font-bold uppercase tracking-[0.22em] text-brass">Best Zone</p>
+              <h2 class="mt-3 font-display text-3xl" id="best-zone-label">-</h2>
+              <p class="mt-4 text-sm leading-7 text-white/78" id="best-zone-insight">Memuat insight zona terbaik...</p>
+            </div>
+
+            <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
+              <div class="rounded-[1.5rem] border border-black/5 bg-white/90 p-5 shadow-soft">
+                <p class="text-[11px] font-bold uppercase tracking-[0.22em] text-smoke">Highest Threat</p>
+                <p class="mt-3 font-display text-2xl text-clay" id="highest-threat-label">-</p>
+                <p class="mt-2 text-sm leading-6 text-smoke">Zona dengan tekanan kompetitor dan sinyal ancaman tertinggi.</p>
+              </div>
+              <div class="rounded-[1.5rem] border border-black/5 bg-white/90 p-5 shadow-soft">
+                <p class="text-[11px] font-bold uppercase tracking-[0.22em] text-smoke">Last Updated</p>
+                <p class="mt-3 text-lg font-extrabold text-ink" id="last-updated-label">-</p>
+                <p class="mt-2 text-sm leading-6 text-smoke">Sinkron dengan output JSON final dari pipeline analisis.</p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto mt-6 max-w-7xl">
+      <div class="grid gap-4 md:grid-cols-2 xl:grid-cols-5" id="summary-cards"></div>
+    </section>
+
+    <section class="mx-auto mt-6 grid max-w-7xl gap-6 xl:grid-cols-[1.25fr_0.75fr]">
+      <article class="rounded-[2rem] border border-white/70 bg-paper p-6 shadow-panel">
+        <div class="flex flex-col gap-3 border-b border-black/5 pb-5 md:flex-row md:items-end md:justify-between">
+          <div>
+            <p class="text-[11px] font-bold uppercase tracking-[0.22em] text-clay">Zone Ranking</p>
+            <h2 class="mt-2 font-display text-3xl text-ink">Business Potential Score per Zona</h2>
+          </div>
+          <p class="max-w-md text-sm leading-6 text-smoke">
+            Grafik ini memadatkan bobot target market, support area, peluang, dan ancaman menjadi ranking yang mudah dibaca.
+          </p>
+        </div>
+        <div class="mt-6 h-[340px]">
+          <canvas id="zoneRankingChart"></canvas>
+        </div>
+      </article>
+
+      <article class="rounded-[2rem] border border-ink/5 bg-ink p-6 text-white shadow-panel">
+        <p class="text-[11px] font-bold uppercase tracking-[0.22em] text-brass">Narrative Reading</p>
+        <h2 class="mt-2 font-display text-3xl">Apa Arti Ranking Ini?</h2>
+        <div class="mt-6 space-y-4" id="ranking-insights"></div>
+      </article>
+    </section>
+
+    <section class="mx-auto mt-6 max-w-7xl">
+      <div class="rounded-[2rem] border border-white/70 bg-paper p-6 shadow-panel">
+        <!-- Header Row -->
+        <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+          <div>
+            <p class="text-[11px] font-bold uppercase tracking-[0.22em] text-clay">Spatial Lens</p>
+            <h2 class="mt-2 font-display text-3xl text-ink">Peta Sebaran POI dan Kompetitor</h2>
+            <p class="mt-2 max-w-2xl text-sm leading-7 text-smoke">
+              Klik area zona atau tombol di bawah untuk sinkronisasi otomatis seluruh dashboard. Gunakan scroll untuk zoom peta.
+            </p>
+          </div>
+          <!-- Quick Zone Selector -->
+          <div class="flex flex-wrap gap-1 bg-mist/60 p-1 rounded-2xl border border-black/5" id="zone-quick-selector">
+            <!-- Injected via JavaScript -->
+          </div>
+        </div>
+
+        <!-- Map Legend Bar (horizontal, collapsible) -->
+        <div class="mt-4 rounded-2xl border border-black/5 bg-white/80 p-3">
+          <div class="flex items-center justify-between gap-3">
+            <div class="flex items-center gap-2">
+              <p class="text-[10px] font-bold uppercase tracking-[0.18em] text-smoke whitespace-nowrap">Kategori Marker</p>
+              <button onclick="toggleMapLegend()" id="legend-toggle-btn" class="text-[10px] font-bold text-ember cursor-pointer hover:text-clay transition">
+                <span id="legend-toggle-text">Sembunyikan</span>
+              </button>
+            </div>
+            <div class="flex items-center gap-2">
+              <button onclick="toggleMapFullscreen()" id="map-fullscreen-btn" class="inline-flex items-center gap-1.5 rounded-full border border-black/10 bg-white px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider text-smoke hover:text-ink hover:border-ember transition cursor-pointer">
+                <svg class="h-3.5 w-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"/></svg>
+                <span id="fullscreen-label">Perbesar</span>
+              </button>
+            </div>
+          </div>
+          <div class="mt-2 flex flex-wrap gap-2" id="map-legend">
+            <!-- Injected via JavaScript -->
+          </div>
+        </div>
+
+        <!-- Map Container (full-width) -->
+        <div class="mt-4 relative overflow-hidden rounded-[1.5rem] border border-black/5 bg-[#ece6dc]" id="map-wrapper">
+          <div id="poi-map" class="h-[500px] w-full"></div>
+
+          <!-- Floating Detail Panel (overlay on right side) -->
+          <div id="map-detail-panel" class="map-floating-panel">
+            <!-- Injected via JavaScript -->
+          </div>
+
+          <!-- Map zoom hint -->
+          <div id="map-zoom-hint" class="absolute bottom-4 left-4 z-[1000] pointer-events-none">
+            <div class="inline-flex items-center gap-1.5 rounded-full bg-ink/70 backdrop-blur-sm px-3 py-1.5 text-[10px] font-bold text-white/90 uppercase tracking-wider shadow-lg">
+              <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"/></svg>
+              Scroll untuk zoom · Klik zona untuk detail
+            </div>
+          </div>
+        </div>
+
+        <!-- Support Composition Chart (below map) -->
+        <div class="mt-5 grid gap-4 lg:grid-cols-2">
+          <div class="rounded-[1.5rem] border border-black/5 bg-white p-5 shadow-soft">
+            <p class="text-[11px] font-bold uppercase tracking-[0.22em] text-smoke">Support Composition</p>
+            <h3 class="mt-2 text-lg font-extrabold text-ink">Perbandingan Fasilitas Pendukung</h3>
+            <div class="mt-4 h-[280px]">
+              <canvas id="zoneMetricsComparisonChart"></canvas>
+            </div>
+          </div>
+          <div class="rounded-[1.5rem] border border-ink/5 bg-ink p-5 shadow-soft text-white">
+            <p class="text-[11px] font-bold uppercase tracking-[0.22em] text-brass">Zone Metrics</p>
+            <h3 class="mt-2 text-lg font-extrabold">Ringkasan Komposisi per Zona</h3>
+            <div class="mt-4 space-y-3" id="zone-metrics-summary">
+              <!-- Injected via JavaScript -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto mt-6 max-w-7xl">
+      <div class="rounded-[2rem] border border-white/70 bg-paper p-6 shadow-panel">
+        <div class="flex flex-col gap-3 border-b border-black/5 pb-5 md:flex-row md:items-end md:justify-between">
+          <div>
+            <p class="text-[11px] font-bold uppercase tracking-[0.22em] text-clay">Zone Matrix</p>
+            <h2 class="mt-2 font-display text-3xl text-ink">Rekap Kuantitatif per Zona</h2>
+          </div>
+          <p class="max-w-xl text-sm leading-6 text-smoke">
+            Tabel ini membantu menjelaskan kenapa zona tertentu naik atau turun dalam ranking.
+          </p>
+        </div>
+        <div class="mt-5 overflow-x-auto">
+          <table class="min-w-full text-left text-sm">
+            <thead>
+              <tr class="border-b border-black/5 text-[11px] font-bold uppercase tracking-[0.22em] text-smoke">
+                <th class="px-4 py-3">Zona</th>
+                <th class="px-4 py-3">Kompetitor</th>
+                <th class="px-4 py-3">Kuliner</th>
+                <th class="px-4 py-3">Pendidikan</th>
+                <th class="px-4 py-3">Akomodasi</th>
+                <th class="px-4 py-3">Retail</th>
+                <th class="px-4 py-3">POI Total</th>
+              </tr>
+            </thead>
+            <tbody id="zone-summary-table"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto mt-6 grid max-w-7xl gap-6 xl:grid-cols-2">
+      <article class="rounded-[2rem] border border-white/70 bg-paper p-6 shadow-panel">
+        <div class="border-b border-black/5 pb-5">
+          <p class="text-[11px] font-bold uppercase tracking-[0.22em] text-clay">Menu Snapshot</p>
+          <h2 class="mt-2 font-display text-3xl text-ink">Menu Mbak Kebab</h2>
+        </div>
+        <div class="mt-5 overflow-auto max-h-[420px]">
+          <table class="min-w-full text-left text-sm">
+            <thead>
+              <tr class="border-b border-black/5 text-[11px] font-bold uppercase tracking-[0.22em] text-smoke">
+                <th class="px-4 py-3">Menu</th>
+                <th class="px-4 py-3">Kategori</th>
+                <th class="px-4 py-3">Varian</th>
+                <th class="px-4 py-3">Harga</th>
+                <th class="px-4 py-3">Confidence</th>
+              </tr>
+            </thead>
+            <tbody id="menu-table"></tbody>
+          </table>
+        </div>
+      </article>
+
+      <article class="rounded-[2rem] border border-white/70 bg-paper p-6 shadow-panel">
+        <div class="border-b border-black/5 pb-5">
+          <p class="text-[11px] font-bold uppercase tracking-[0.22em] text-clay">Competitor Pricing</p>
+          <h2 class="mt-2 font-display text-3xl text-ink">Benchmark Kompetitor</h2>
+        </div>
+        <div class="mt-5 overflow-auto max-h-[420px]">
+          <table class="min-w-full text-left text-sm">
+            <thead>
+              <tr class="border-b border-black/5 text-[11px] font-bold uppercase tracking-[0.22em] text-smoke">
+                <th class="px-4 py-3">Kompetitor</th>
+                <th class="px-4 py-3">Zona</th>
+                <th class="px-4 py-3">Menu</th>
+                <th class="px-4 py-3">Harga</th>
+                <th class="px-4 py-3">Confidence</th>
+              </tr>
+            </thead>
+            <tbody id="competitor-table"></tbody>
+          </table>
+        </div>
+        <p class="mt-3 text-[11px] leading-5 text-smoke">
+          <span class="font-bold text-ink">Catatan:</span> label <span class="font-semibold text-ink">outlet</span> berarti harga berasal dari listing outlet spesifik, sedangkan
+          <span class="font-semibold text-ink">brand</span> berarti harga masih berupa benchmark dari listing brand publik.
+        </p>
+      </article>
+    </section>
+
+    <section class="mx-auto mt-6 max-w-7xl">
+      <div class="rounded-[2rem] border border-white/70 bg-paper p-6 shadow-panel">
+        <div class="border-b border-black/5 pb-5">
+          <p class="text-[11px] font-bold uppercase tracking-[0.22em] text-clay">SWOT Evidence</p>
+          <h2 class="mt-2 font-display text-3xl text-ink">Matriks SWOT Berbasis Data</h2>
+        </div>
+        <div class="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-4" id="swot-grid"></div>
+      </div>
+    </section>
+
+
+
+    <footer class="mx-auto mt-6 max-w-7xl pb-8">
+      <div class="rounded-[1.8rem] border border-white/70 bg-paper p-6 shadow-soft">
+        <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+          <div>
+            <p class="text-[11px] font-bold uppercase tracking-[0.22em] text-clay">Catatan Metodologi</p>
+            <p class="mt-3 max-w-4xl text-sm leading-7 text-smoke">
+              Pipeline analisis menggabungkan baseline internal, scraping Overpass OSM, cleaning, merge POI, scoring zona,
+              SWOT evidence, lalu diekspor ke JSON untuk visualisasi. Hasil ini cocok untuk decision-support, bukan
+              pengganti survei lapangan.
+            </p>
+          </div>
+          <a href="./data/landing_page_data.json"
+            class="inline-flex items-center justify-center rounded-full bg-ember px-5 py-3 text-sm font-bold uppercase tracking-[0.18em] text-white transition hover:bg-clay">
+            Buka JSON Dashboard
+          </a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="./app.js"></script>
+</body>
+
+</html>

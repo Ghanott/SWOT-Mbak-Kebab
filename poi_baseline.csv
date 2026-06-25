@@ -1,0 +1,14 @@
+poi_id,name,category,zone,latitude,longitude,address,source,confidence,notes
+P-001,Mbak Kebab,brand_reference,External/Ponorogo,,,Ponorogo/Jawa Timur,Instagram public,medium,Bukan POI Sleman; referensi brand.
+P-002,Istanbul Kebab Turki House Moses,direct_kebab_competitor,Depok,-7.778,110.386,"Mrican, Caturtunggal, Sleman",GoFood/public listing,low,"Koordinat centroid manual, perlu validasi."
+P-003,Heybab Kebab Concat,direct_kebab_competitor,Depok,-7.747,110.402,"Condongcatur, Depok, Sleman",GoFood/public listing,low,"Koordinat centroid manual, perlu validasi."
+P-004,H Kebab,direct_kebab_competitor,Depok,-7.775,110.389,"Jl. Affandi, Caturtunggal, Sleman",Facebook public post,low,Koordinat centroid manual.
+P-005,Kebab Turkiyem UGM,direct_kebab_competitor,Depok,-7.772,110.38,Sekitar UGM,Waze/public map,low,Koordinat centroid manual.
+P-006,Kebab Ajib Condong Catur,direct_kebab_competitor,Depok,-7.7455,110.401,Condongcatur,Waze/public map,low,Koordinat centroid manual.
+P-007,Morgans Kebab Pandega,direct_kebab_competitor,Ngaglik Selatan,-7.7557642,110.3763824,Pandega/Jakal bawah,Corner/Google Maps coordinate,medium,Koordinat eksplisit dari sumber publik.
+P-008,Kebab Turki Baba Rafi Sendangadi,direct_kebab_competitor,Mlati,-7.745,110.36,Sendangadi/Mlati,public listing,low,Koordinat centroid manual.
+P-009,Kebab Bosman Monjali,direct_kebab_competitor,Mlati,-7.75,110.365,Monjali/Mlati,public listing,low,Koordinat centroid manual.
+P-010,Jogja City Mall,mall/titik_keramaian,Mlati,-7.752,110.361,"Jl. Magelang, Mlati",public web,medium,Titik keramaian/retail.
+P-011,Terminal Jombor,transport/titik_keramaian,Mlati,-7.748,110.362,"Jombor, Mlati",public/BPS context,medium,Titik traffic.
+P-012,Morgans Kebab Godean,direct_kebab_competitor,Gamping,-7.78,110.325,Koridor Godean/Gamping,public listing,low,Koordinat centroid manual.
+P-013,Kebab Bang Aji,direct_kebab_competitor,Gamping,-7.79,110.32,Gamping,public listing,low,Koordinat centroid manual.
